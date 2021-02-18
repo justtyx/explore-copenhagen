@@ -1,0 +1,97 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="1508.82" height="765" viewBox="0 0 1508.82 765">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 14px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g id="rower">
+      <path class="cls-1" d="M311,637.25a77,77,0,1,0,0,147.91" transform="translate(-205.59 -162.71)"/>
+      <circle class="cls-1" cx="304" cy="548.5" r="77"/>
+      <circle class="cls-2" cx="304" cy="548.5" r="10"/>
+      <circle class="cls-2" cx="86" cy="548.5" r="10"/>
+      <polygon class="cls-3" points="200 520.5 86 545.5 142.24 454.71 269.98 445.88 200 520.5"/>
+      <line class="cls-3" x1="200" y1="520.5" x2="120" y2="416.5"/>
+      <path class="cls-2" d="M362.59,570.21c0,6.62-16.57,9-37,9s-37-2.38-37-9,16.56-3,37-3S362.59,563.58,362.59,570.21Z" transform="translate(-205.59 -162.71)"/>
+      <path class="cls-3" d="M465.59,556.21" transform="translate(-205.59 -162.71)"/>
+      <path class="cls-3" d="M509.59,571.21" transform="translate(-205.59 -162.71)"/>
+      <path class="cls-3" d="M465.59,556.21" transform="translate(-205.59 -162.71)"/>
+      <path class="cls-3" d="M519.59,573.21c0-5-1.25-12.9-12-16-9.61-2.78-27.91-1-42-1l44,155" transform="translate(-205.59 -162.71)"/>
+    </g>
+    <path class="cls-1" d="M611.09,920.71v-283l-.08-.19a77,77,0,1,1-.51,147.91" transform="translate(-205.59 -162.71)"/>
+    <g>
+      <path class="cls-1" d="M747.68,759.91" transform="translate(-205.59 -162.71)"/>
+      <g>
+        <path class="cls-1" d="M828.84,637.18a77,77,0,1,0,0,147.91" transform="translate(-205.59 -162.71)"/>
+        <path class="cls-1" d="M834.29,634c-31.2,38.72-63.2,75.72-95.2,113.72" transform="translate(-205.59 -162.71)"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-1" x1="648.5" y1="474" x2="648.5" y2="634"/>
+      <path class="cls-1" d="M973.09,796.71c0-40.21,7.2-104.71-12-132-21.18-30.11-73.37-21-107-21" transform="translate(-205.59 -162.71)"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="793.5" y1="337" x2="793.5" y2="635"/>
+      <path class="cls-1" d="M1118.57,797.69c0-40.21,7.2-104.71-12-132-21.18-30.11-73.37-21-107-21" transform="translate(-205.59 -162.71)"/>
+    </g>
+    <g>
+      <path class="cls-1" d="M1289.09,760.71c-14.1,18-44.38,36-69,36a77,77,0,0,1,0-154c25.14,0,55,15.36,69,34" transform="translate(-205.59 -162.71)"/>
+      <line class="cls-1" x1="1083.5" y1="480" x2="1083.5" y2="636"/>
+    </g>
+    <g>
+      <g>
+        <path class="cls-1" d="M1434,647.75a77,77,0,1,0-42.89,141c16.38,0,31.52-.29,44-9-.79-21-.89-47-1-68C1434,690.36,1433.88,669,1434,647.75Z" transform="translate(-205.59 -162.71)"/>
+        <line class="cls-1" x1="1229.5" y1="483" x2="1229.5" y2="713"/>
+      </g>
+      <path class="cls-1" d="M1356.09,912.71c7.82,5.8,30.54,7.87,40,8,18.32.24,37.74-17.25,39-46" transform="translate(-205.59 -162.71)"/>
+    </g>
+    <g>
+      <path class="cls-1" d="M1460.13,711.89a77,77,0,0,0,98.44,74" transform="translate(-205.59 -162.71)"/>
+      <path class="cls-1" d="M1558.57,637.93a77,77,0,0,0-98.44,74" transform="translate(-205.59 -162.71)"/>
+      <path class="cls-1" d="M1564,634.74c-31.21,38.72-63.21,75.72-95.21,113.72" transform="translate(-205.59 -162.71)"/>
+    </g>
+    <g>
+      <line class="cls-1" x1="1381.5" y1="473" x2="1381.5" y2="633"/>
+      <path class="cls-1" d="M1706.09,795.71c0-40.21,7.2-104.71-12-132-21.18-30.11-73.37-21-107-21" transform="translate(-205.59 -162.71)"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <g>
+        <path class="cls-1" d="M536.24,372.67a77,77,0,0,0,98.44,73.95" transform="translate(-205.59 -162.71)"/>
+        <path class="cls-1" d="M634.68,298.72a77,77,0,0,0-98.44,73.95" transform="translate(-205.59 -162.71)"/>
+        <path class="cls-1" d="M640.13,295.53c-31.2,38.71-63.2,75.71-95.2,113.71" transform="translate(-205.59 -162.71)"/>
+      </g>
+      <g>
+        <line class="cls-1" x1="451.25" y1="292" x2="587.75" y2="155.5"/>
+        <line class="cls-1" x1="455.64" y1="153.74" x2="590.45" y2="291.91"/>
+      </g>
+      <path class="cls-1" d="M822.84,587.71v-283l-.08-.19a77,77,0,1,1-.51,147.91" transform="translate(-205.59 -162.71)"/>
+      <line class="cls-1" x1="746.25" x2="746.25" y2="298"/>
+      <circle class="cls-1" cx="854.25" cy="221" r="77"/>
+      <g>
+        <line class="cls-1" x1="962.25" y1="133" x2="962.25" y2="293"/>
+        <path class="cls-1" d="M1265.84,324.71c0-12.16-51-39-102-10" transform="translate(-205.59 -162.71)"/>
+      </g>
+      <path class="cls-2" d="M1286.34,272.21" transform="translate(-205.59 -162.71)"/>
+    </g>
+    <path class="cls-1" d="M1279.87,381.71a77,77,0,0,0,98.43,74" transform="translate(-205.59 -162.71)"/>
+    <path class="cls-1" d="M1378.3,307.76a77,77,0,0,0-98.43,73.95" transform="translate(-205.59 -162.71)"/>
+    <path class="cls-1" d="M1383.76,304.56c-31.2,38.72-63.2,75.72-95.2,113.72" transform="translate(-205.59 -162.71)"/>
+  </g>
+</svg>
