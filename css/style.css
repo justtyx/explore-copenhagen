@@ -32,9 +32,7 @@ html {
     --margin-bottom: 0.3rem;
 }
 
-<<<<<<< HEAD
 /*article page*/
-=======
 /*fonts*/
 
 
@@ -52,11 +50,9 @@ html {
     justify-items: center;
     gap: 1.5rem;
 }
->>>>>>> a674d5a1b735e669c7a27acfb575bc42a9338586
 
 /*article page*/
 .header-img {
-<<<<<<< HEAD
   width: 100%;
   height: 200px;
   background-image: url("/img/800px_COLOURBOX11893496.jpg");
@@ -74,7 +70,6 @@ html {
   top: 39%;
   left: 50%;
   background-color: white;
-=======
     width: 100%;
     height: 200px;
     background-image: url("/img/800px_COLOURBOX11893496.jpg");
@@ -92,7 +87,6 @@ html {
     top: 27%;
     left: 50%;
     background-color: white;
->>>>>>> a674d5a1b735e669c7a27acfb575bc42a9338586
 }
 
 h1 {
@@ -100,19 +94,16 @@ h1 {
 }
 
 .short-description {
-<<<<<<< HEAD
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: var(--secondary-font);
-=======
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: var(--secondary-font);
->>>>>>> a674d5a1b735e669c7a27acfb575bc42a9338586
 }
 
 .image {
@@ -126,7 +117,6 @@ h1 {
 }
 
 .card {
-<<<<<<< HEAD
   display: flex;
   width: 90vw;
   height: 15vw;
@@ -138,7 +128,6 @@ h1 {
   margin-top: 3%;
   margin-left: 80px;
   margin-right: 80px;
-=======
     display: flex;
     width: 60vw;
     height: 15vw;
@@ -150,7 +139,6 @@ h1 {
     margin-top: 3%;
     margin-left: 80px;
     margin-right: 80px;
->>>>>>> a674d5a1b735e669c7a27acfb575bc42a9338586
 }
 
 .img-container {
@@ -280,7 +268,6 @@ button:active,
     background-color: var(--link-color);
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   .header-img {
     width: 100%;
@@ -365,10 +352,8 @@ button:active,
     font-family: var(--secondary-font);
   }
 }
-=======
 button:focus,
 button:active,
 button:focus-within {
     outline: 0;
 }
->>>>>>> a674d5a1b735e669c7a27acfb575bc42a9338586
