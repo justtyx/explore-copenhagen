@@ -27,10 +27,15 @@ html {
 
 /*Index.html*/
 
-.article-card>img {
+.ldn-card-cont {
     width: 20rem;
     height: 23rem;
-    border: 2px solid black;
+    overflow: hidden;
+}
+
+.ldn-card-cont>img {
+    height: 100%;
+    width: auto;
 }
 
 .cards-grid {
