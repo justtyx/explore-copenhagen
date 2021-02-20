@@ -20,17 +20,6 @@ html {
   font-size: 100%;
 }
 
-:root {
-  --bg-color: #0dc2e2;
-  --link-color: #fed642;
-  --color-3: #727272;
-
-  --primary-font: "Playfair Display", serif;
-  --secondary-font: "Montserrat", "Roboto", sans-serif;
-  --main-text-color: #000;
-  --white-space: 1rem;
-  --margin-bottom: 0.3rem;
-}
 
 /*fonts*/
 
@@ -56,6 +45,8 @@ html {
   background-image: url("/img/800px_COLOURBOX11893496.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+ 
+
 }
 
 .article-container {
@@ -68,23 +59,10 @@ html {
   top: 39%;
   left: 50%;
   background-color: white;
-}
-
-.article-container {
-  z-index: 100;
-  position: absolute;
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-  transform: translate(-50%, -50%);
-  top: 37%;
-  left: 50%;
-  background-color: white;
-}
-
-h1 {
   font-family: var(--primary-font);
 }
+
+
 
 .short-description {
   position: absolute;
@@ -394,7 +372,6 @@ button:active,
 
   .article-container {
     z-index: 100;
-    position: absolute;
     color: black;
     font-size: 24px;
     font-weight: bold;
@@ -402,10 +379,9 @@ button:active,
     top: 37%;
     left: 50%;
     background-color: white;
-  }
-  h1 {
     font-family: var(--primary-font);
   }
+
   .short-description {
     position: absolute;
     top: 75%;
@@ -413,6 +389,7 @@ button:active,
     transform: translate(-50%, -50%);
     font-family: var(--secondary-font);
   }
+
   .image {
     margin-top: 90%;
     margin-left: 10%;
@@ -430,7 +407,7 @@ button:active,
     border-radius: 2px;
     padding: 1rem;
     overflow: hidden;
-    min-width: 400px;
+    min-width: 200px;
     margin-top: 5%;
     margin-left: 40px;
     margin-right: 40px;
