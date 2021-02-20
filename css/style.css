@@ -22,6 +22,18 @@ html {
     --margin-bottom: 0.3rem;
 }
 
+a {
+    font-family: var(--secondary-font);
+    color: var(--bg-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: var(--link-color);
+}
+
 /*fonts*/
 
 
@@ -43,6 +55,10 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
     justify-items: center;
     gap: 1.5rem;
+}
+
+.hidden {
+    display: none;
 }
 
 /*article page*/
