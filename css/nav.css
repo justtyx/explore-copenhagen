@@ -6,7 +6,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
 .logo {
@@ -50,10 +50,10 @@ li a {
 
     body {
         margin: 0;
-        padding 0;
+        padding: 0;
         overflow-x: hidden;
     }
-   
+
     nav ul {
         position: absolute;
         right: 0;
@@ -85,12 +85,13 @@ li a {
     .nav-active {
         transform: translateX(0%);
     }
-    
+
     @keyframes navLinkFade {
         from {
             opacity: 0;
             transform: translateX(50px);
         }
+
         to {
             opacity: 1;
             transform: translateX(0px);
@@ -109,5 +110,3 @@ li a {
         transform: rotate(45deg) translate(-5px, -5px);
     }
 }
-
-
