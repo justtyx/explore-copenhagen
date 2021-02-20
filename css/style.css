@@ -39,7 +39,7 @@ html {
 .header-img {
   width: 100%;
   height: 200px;
-  background-image:url("/img/800px_COLOURBOX11893496.jpg");
+  background-image: url("/img/800px_COLOURBOX11893496.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -143,3 +143,132 @@ a.category > p:hover {
 }
 
 /**/
+
+/*newsletter page*/
+.newsletter-page {
+  background-image: url(/img/the-round-tower-2762438_1920.jpg);
+  background-repeat: no-repeat;
+}
+
+.newsletter-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20em;
+  padding-left: 2em;
+}
+
+.news-heading {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+}
+
+.news-form {
+  font-family: var(--secondary-font);
+}
+
+.register-form .e-mail {
+  border: none;
+  width: 20vw;
+  height: 3vw;
+  opacity: 30%;
+}
+
+.register-form .sub-button {
+  width: 9vw;
+  height: 2vw;
+  border-radius: 10%;
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+}
+
+/**/
+
+/*About page*/
+.about-heading-wrapper {
+  background-image: url(/img/rosenborg-castle-4696852_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 400px;
+  max-height: auto;
+  margin-bottom: 3em;
+}
+.about-wrap-heading {
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+}
+
+.about-main {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0% 20% 0% 20%;
+}
+
+.column-about-content {
+  min-width: 280px;
+  text-align: left;
+}
+.about-page-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.about-heading {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.about-p {
+  font-family: var(--secondary-font);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 3em;
+  line-height: 1.5;
+}
+
+.about-subhead {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+form.get-in-touch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fill-form {
+  font-family: var(--secondary-font);
+  font-size: 1.2vw;
+}
+
+input {
+  width: 15rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.submit-button {
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #0dc2e2;
+  width: 5.5vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: var(--link-color);
+}
