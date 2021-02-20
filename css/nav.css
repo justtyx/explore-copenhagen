@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -6,7 +8,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
 .logo {
@@ -32,6 +34,12 @@ nav li {
 li a {
     text-decoration: none;
     color: black;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+li a:hover {
+    font-weight: 500;
 }
 
 .hamburger div {
@@ -50,16 +58,16 @@ li a {
 
     body {
         margin: 0;
-        padding 0;
+        padding: 0;
         overflow-x: hidden;
     }
-   
+
     nav ul {
         position: absolute;
         right: 0;
         top: 0;
         margin: 0;
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -67,6 +75,8 @@ li a {
         transform: translateX(100%);
         transition: 0.5s ease-in;
         background-color: lightgray;
+        opacity: 100%;
+        z-index: 1;
     }
 
     nav li {
@@ -80,17 +90,19 @@ li a {
         position: absolute;
         top: 1em;
         right: 1em;
+        z-index: 2
     }
 
     .nav-active {
         transform: translateX(0%);
     }
-    
+
     @keyframes navLinkFade {
         from {
             opacity: 0;
             transform: translateX(50px);
         }
+
         to {
             opacity: 1;
             transform: translateX(0px);
@@ -109,5 +121,3 @@ li a {
         transform: rotate(45deg) translate(-5px, -5px);
     }
 }
-
-
