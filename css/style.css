@@ -151,7 +151,89 @@ a.category > p:hover {
   text-decoration: none;
 }
 
-/**/
+@media only screen and (max-width: 768px) {
+  .header-img {
+    width: 100%;
+    height: 200px;
+    background-image: url("/img/800px_COLOURBOX11893496.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .article-container {
+    z-index: 100;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    top: 37%;
+    left: 50%;
+    background-color: white;
+    font-family: var(--primary-font);
+  }
+
+  .short-description {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: var(--secondary-font);
+  }
+
+  .image {
+    margin-top: 80%;
+    margin-left: 10%;
+    display: flex;
+    width: 80vw;
+    height: 60vw;
+    padding: 1rem;
+  }
+
+  .card {
+    display: flex;
+    width: 80vw;
+    height: 40vw;
+    box-shadow: 0.5px 0.5px 7px var(--color-3);
+    border-radius: 2px;
+    padding: 1rem;
+    overflow: hidden;
+    min-width: 300px;
+    margin-top: 5%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .img-container {
+    width: max(50vw, 200px);
+    height: auto;
+    padding-right: 1rem;
+  }
+
+  .img-container > img {
+    width: auto;
+    height: 100%;
+  }
+
+  .text-column > h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--primary-font);
+  }
+
+  .description {
+    line-height: 140%;
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--secondary-font);
+  }
+
+  .address {
+    font-size: 0.9rem;
+    color: var(--color-3);
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--secondary-font);
+  }
+}
 
 /*newsletter page*/
 .newsletter-page {
@@ -361,89 +443,6 @@ button:active,
   background-color: var(--link-color);
 }
 
-@media only screen and (max-width: 768px) {
-  .header-img {
-    width: 100%;
-    height: 200px;
-    background-image: url("/img/800px_COLOURBOX11893496.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
-
-  .article-container {
-    z-index: 100;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    transform: translate(-50%, -50%);
-    top: 37%;
-    left: 50%;
-    background-color: white;
-    font-family: var(--primary-font);
-  }
-
-  .short-description {
-    position: absolute;
-    top: 75%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    font-family: var(--secondary-font);
-  }
-
-  .image {
-    margin-top: 90%;
-    margin-left: 10%;
-    display: flex;
-    width: 80vw;
-    height: 60vw;
-    padding: 1rem;
-  }
-
-  .card {
-    display: flex;
-    width: 40vw;
-    height: 40vw;
-    box-shadow: 0.5px 0.5px 7px var(--color-3);
-    border-radius: 2px;
-    padding: 1rem;
-    overflow: hidden;
-    min-width: 200px;
-    margin-top: 5%;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
-  .img-container {
-    width: max(20vw, 300px);
-    height: auto;
-    padding-right: 1rem;
-  }
-
-  .img-container > img {
-    width: auto;
-    height: 100%;
-  }
-
-  .text-column > h2 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--primary-font);
-  }
-
-  .description {
-    line-height: 140%;
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--secondary-font);
-  }
-
-  .address {
-    font-size: 0.9rem;
-    color: var(--color-3);
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--secondary-font);
-  }
-}
 button:focus,
 button:active,
 button:focus-within {
