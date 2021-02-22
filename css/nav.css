@@ -17,10 +17,6 @@ body {
     margin-left: 2rem;
 }
 
-nav {
-    margin-right: 5vw;
-}
-
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -40,6 +36,7 @@ li a {
 
 li a:hover {
     font-weight: 500;
+    color: #fed642;
 }
 
 .hamburger div {
