@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+h1 {
+    font-family: 'Montserrat';
+    margin-left: 8vw;
+    margin-top: 10vh;
+    font-size: 3vw;
+}
 
 .categories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap: 5em;
-    column-gap: 2em;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5vw;
+    row-gap: 5vh;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .category {
@@ -17,7 +23,6 @@
     margin: 0;
     padding: 0;
     box-shadow: 1px 1px 7px gray;
-    flex-basis: 25%;
 }
 
 .categoryimage {
@@ -52,4 +57,19 @@
 
 #barcategory {
     justify-self: left;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .categories {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .categoryname {
+        font-size: 3vw;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
 }
