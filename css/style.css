@@ -128,44 +128,40 @@ a:hover {
 .header-img {
     width: 100%;
     height: 200px;
-    background-image: url("/img/800px_COLOURBOX11893496.jpg");
+    background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/800px_COLOURBOX11893496.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
+    object-fit: cover;
 
 }
 
 .article-container {
     z-index: 100;
-    position: absolute;
     color: black;
     font-size: 24px;
     font-weight: bold;
-    transform: translate(-50%, -50%);
-    top: 39%;
-    left: 50%;
     background-color: white;
     font-family: var(--primary-font);
+    text-align: center;
+    transform: translateY(-50px);
+    display: block;
+    margin: auto;
+    max-width: 700px;
 }
 
-
-
 .short-description {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-family: var(--secondary-font);
+    max-width: 700px;
+    display: block;
+    margin: auto;
 }
 
 .image {
-    margin-top: 20%;
-    margin-left: 35%;
+    margin: 2rem auto 1rem;
     display: flex;
 
-    width: 60vw;
+    justify-content: center;
     height: 30vw;
-    padding: 1rem;
 }
 
 .card {
@@ -238,41 +234,9 @@ a.category>p:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    .header-img {
-        width: 100%;
-        height: 200px;
-        background-image: url("/img/800px_COLOURBOX11893496.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-
-    .article-container {
-        z-index: 100;
-        color: black;
-        font-size: 24px;
-        font-weight: bold;
-        transform: translate(-50%, -50%);
-        top: 37%;
-        left: 50%;
-        background-color: white;
-        font-family: var(--primary-font);
-    }
-
-    .short-description {
-        position: absolute;
-        top: 75%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        font-family: var(--secondary-font);
-    }
 
     .image {
-        margin-top: 80%;
-        margin-left: 10%;
-        display: flex;
-        width: 80vw;
         height: 60vw;
-        padding: 1rem;
     }
 
     .card {
