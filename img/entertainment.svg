@@ -9,7 +9,7 @@
         fill: none;
       }
 
-      .cls-2, .cls-3, .cls-4 {
+      .cls-2, .cls-3 {
         stroke: #fff;
         stroke-miterlimit: 10;
         stroke-width: 11px;
@@ -32,8 +32,8 @@
       <path class="cls-2" d="M411.27,98.91c0,11.38,10.23,20.59,22.88,20.59"/>
     </g>
     <g>
-      <ellipse class="cls-4" cx="77.46" cy="366.45" rx="11.61" ry="5.64"/>
-      <ellipse class="cls-4" cx="117.76" cy="355.34" rx="11.61" ry="5.64"/>
+      <ellipse class="cls-3" cx="77.46" cy="366.45" rx="11.61" ry="5.64"/>
+      <ellipse class="cls-3" cx="117.76" cy="355.34" rx="11.61" ry="5.64"/>
       <polyline class="cls-2" points="129.37 354.02 129.37 308.16 89.07 319.28 89.07 365.14"/>
     </g>
   </g>

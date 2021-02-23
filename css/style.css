@@ -134,6 +134,10 @@ a:hover {
 }
 
 .article-container {
+<<<<<<< HEAD
+=======
+  z-index: 100;
+>>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
   position: absolute;
   color: black;
   font-size: 24px;
@@ -242,6 +246,10 @@ a.category > p:hover {
   }
 
   .article-container {
+<<<<<<< HEAD
+=======
+    z-index: 100;
+>>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
     color: black;
     font-size: 24px;
     font-weight: bold;
@@ -302,6 +310,10 @@ a.category > p:hover {
   }
 
   .description {
+<<<<<<< HEAD
+=======
+    line-height: 140%;
+>>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
     margin-bottom: var(--margin-bottom);
     font-family: var(--secondary-font);
   }
@@ -316,7 +328,11 @@ a.category > p:hover {
 
 /*newsletter page*/
 .newsletter-page {
+<<<<<<< HEAD
   background-image: url(/img/the-round-tower-2762438_1920.jpg);
+=======
+  background-image: url(img/the-round-tower-2762438_1920.jpg);
+>>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
   background-repeat: no-repeat;
 }
 
@@ -364,7 +380,11 @@ a.category > p:hover {
 
 /*About page*/
 .about-heading-wrapper {
+<<<<<<< HEAD
   background-image: url(/img/rosenborg-castle-4696852_1920.jpg);
+=======
+  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+>>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
@@ -375,9 +395,16 @@ a.category > p:hover {
 
 .about-wrap-heading {
   font-size: 4vw;
+<<<<<<< HEAD
   text-align: center;
   padding-top: 10%;
   color: white;
+=======
+  font-family: var(--primary-font);
+  color: #000;
+  text-align: center;
+  transform: translate(0%, 400%);
+>>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
 }
 
 .about-main {
