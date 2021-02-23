@@ -135,7 +135,11 @@ a:hover {
 }
 
 .article-container {
+<<<<<<< HEAD
+position: absolute;
+=======
   z-index: 100;
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
   color: black;
   font-size: 24px;
   font-weight: bold;
@@ -448,10 +452,12 @@ a.category>p:hover {
   }
 
   .article-container {
+<<<<<<< HEAD
+=======
 
     z-index: 100;
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
     position: absolute;
-
     color: black;
     font-size: 24px;
     font-weight: bold;
@@ -512,6 +518,10 @@ a.category>p:hover {
     font-family: var(--primary-font);
   }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
   .description {
     line-height: 140%;
     margin-bottom: var(--margin-bottom);
@@ -523,12 +533,25 @@ a.category>p:hover {
     color: var(--color-3);
     margin-bottom: var(--margin-bottom);
     font-family: var(--secondary-font);
+<<<<<<< HEAD
+=======
   }
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
 }
 
 /*newsletter page*/
 .newsletter-page {
+<<<<<<< HEAD
+
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/the-round-tower-2762438_1920.jpg);
+
+  background-image: url(/img/the-round-tower-2762438_1920.jpg);
+
   background-image: url(img/the-round-tower-2762438_1920.jpg);
+
+=======
+  background-image: url(img/the-round-tower-2762438_1920.jpg);
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
   background-repeat: no-repeat;
 }
 
@@ -576,7 +599,18 @@ a.category>p:hover {
 
 /*About page*/
 .about-heading-wrapper {
+<<<<<<< HEAD
+
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/rosenborg-castle-4696852_1920.jpg);
+
+
+  background-image: url(/img/rosenborg-castle-4696852_1920.jpg);
+
   background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+
+=======
+  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
@@ -587,10 +621,22 @@ a.category>p:hover {
 
 .about-wrap-heading {
   font-size: 4vw;
+<<<<<<< HEAD
+
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+
+=======
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
   font-family: var(--primary-font);
   color: #000;
   text-align: center;
   transform: translate(0%, 400%);
+<<<<<<< HEAD
+
+=======
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
 }
 
 .about-main {
@@ -837,7 +883,11 @@ a.category>p:hover {
     border-radius: 2px;
     text-decoration: none;
     font-family: var(--secondary-font);
+<<<<<<< HEAD
+}
+=======
   }
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
 
   a.category:hover {
     background-color: var(--link-color);
