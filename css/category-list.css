@@ -48,7 +48,7 @@ h1 {
     text-align: center;
 }
 
-.category a {
+a {
     text-decoration: none;
 }
 
@@ -58,30 +58,34 @@ h1 {
         display: flex;
         flex-direction: column;
         align-content: flex-start;
-        row-gap: 10vw;
+        row-gap: 5vw;
         margin-bottom: 0;
     }
 
+    a {
+        height: 15vw;
+    }
+
     .category {
+        display: flex;
+        flex-direction: row;
         width: 80vw;
-        margin-bottom: 0;
+        align-items: center;
+        height: 15vw;
     }
 
     .categoryname {
         font-size: 16px;
-        transform: translateY(-10vw);
         color: white;
-        text-align: center;
-        margin-left: 10vw;
+        justify-self: center;
+    }
+
+    .categoryimage {
+        width: 20vw;
     }
 
     h1 {
         font-size: 20px;
         margin-bottom: 5vw;
-    }
-
-    .categoryimage {
-        width: 20vw;
-        margin: 0;
     }
 }
