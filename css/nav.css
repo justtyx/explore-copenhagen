@@ -31,15 +31,18 @@ body {
     font-size: 16px;
 }
 
-.navbutton a {
+.navbutton a, .explore {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
-.explore:hover, .navbutton a:hover {
+.explore:hover, .navbutton:hover {
     font-weight: 500;
     color: #fed642;
+    background: none;
+    border: none;
 }
 
 .explore {
