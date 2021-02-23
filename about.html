@@ -68,36 +68,16 @@
         />
         <h3 class="about-subhead">Get in touch</h3>
         <form class="get-in-touch">
-          <table class="fill-form">
-            <tr>
-              <td>First name :</td>
-              <td>
-                <input type="text" name="" />
-              </td>
-            </tr>
-            <tr>
-              <td>Last name :</td>
-              <td>
-                <input type="text" name="" />
-              </td>
-            </tr>
-            <tr>
-              <td>Email :</td>
-              <td>
-                <input class="email-sign" type="email" name="" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input
-                  class="submit-button"
-                  type="Submit"
-                  value="Submit"
-                  name=""
-                />
-              </td>
-            </tr>
-          </table>
+          <label for="firstName" class="first-name">First Name</label>
+          <input id="firstName" type="text" />
+
+          <label for="lastName" class="last-name">Last Name</label>
+          <input id="lastName" type="text" />
+
+          <label for="email" class="last-name">E-mail</label>
+          <input id="email" type="text" />
+
+          <button class="submit-button">Submit</button>
         </form>
       </div>
     </main>

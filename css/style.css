@@ -338,10 +338,14 @@ a.category > p:hover {
 /*newsletter page*/
 .newsletter-page {
 <<<<<<< HEAD
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/the-round-tower-2762438_1920.jpg);
+=======
+<<<<<<< HEAD
   background-image: url(/img/the-round-tower-2762438_1920.jpg);
 =======
   background-image: url(img/the-round-tower-2762438_1920.jpg);
 >>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
+>>>>>>> 84c1b1527c6719543130d88b8e710fc2964c14e6
   background-repeat: no-repeat;
 }
 
@@ -390,10 +394,14 @@ a.category > p:hover {
 /*About page*/
 .about-heading-wrapper {
 <<<<<<< HEAD
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/rosenborg-castle-4696852_1920.jpg);
+=======
+<<<<<<< HEAD
   background-image: url(/img/rosenborg-castle-4696852_1920.jpg);
 =======
   background-image: url(img/rosenborg-castle-4696852_1920.jpg);
 >>>>>>> 50f2b70fa3a91bd78637abbcfade44aaa05fe8f5
+>>>>>>> 84c1b1527c6719543130d88b8e710fc2964c14e6
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
@@ -455,19 +463,29 @@ a.category > p:hover {
   text-align: center;
 }
 
-form.get-in-touch {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+form {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  padding: 1em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
 }
 
-.fill-form {
+label {
+  grid-column: 1/ 2;
   font-family: var(--secondary-font);
-  font-size: 1.2vw;
 }
 
-input {
-  width: 15rem;
+input,
+.submit-button {
+  grid-column: 2 / 3;
+}
+
+form input {
+  width: 25rem;
+  margin-bottom: 1rem;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -479,11 +497,12 @@ input {
   cursor: pointer;
   text-transform: uppercase;
   background-color: #0dc2e2;
-  width: 5.5vw;
-  height: 2vw;
+  width: 9.5vw;
+  height: 2.5vw;
   border-radius: 5px;
   border: none;
   color: white;
+  transform: translate(70%, 30%);
 }
 
 .submit-button:hover {
