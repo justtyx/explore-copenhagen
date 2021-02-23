@@ -31,13 +31,13 @@ body {
     font-size: 16px;
 }
 
-.navbutton {
+.navbutton a {
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 
-.explore:hover, .navbutton:hover {
+.explore:hover, .navbutton a:hover {
     font-weight: 500;
     color: #fed642;
 }
