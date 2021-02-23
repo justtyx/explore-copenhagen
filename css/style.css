@@ -1,37 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600&family=Roboto:wght@300;400;500&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-    --bg-color: #0dc2e2;
-    --link-color: #fed642;
-    --color-3: #727272;
+  --bg-color: #0dc2e2;
+  --link-color: #fed642;
+  --color-3: #727272;
 
-    --primary-font: "Playfair Display", serif;
-    --secondary-font: "Montserrat", "Roboto", sans-serif;
-    --main-text-color: #000;
-    --white-space: 1rem;
-    --margin-bottom: 1rem;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Montserrat", "Roboto", sans-serif;
+  --main-text-color: #000;
+  --white-space: 1rem;
+  --margin-bottom: 1rem;
 }
 
 html {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 a {
-    font-family: var(--secondary-font);
-    color: var(--bg-color);
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.2s;
+  font-family: var(--secondary-font);
+  color: var(--bg-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 a:hover {
-    color: var(--link-color);
+  color: var(--link-color);
 }
 
 /*fonts*/
@@ -39,128 +39,132 @@ a:hover {
 /*Index.html*/
 
 .article-card {
-    position: relative;
-    margin-bottom: var(--margin-bottom);
-    margin: 2rem 0;
-    border-bottom: 3px solid transparent;
+  position: relative;
+  margin-bottom: var(--margin-bottom);
+  margin: 2rem 0;
+  border-bottom: 3px solid transparent;
 }
 
 .article-card:hover {
-    border-bottom: 3px solid var(--bg-color);
-    filter: contrast(0.9);
+  border-bottom: 3px solid var(--bg-color);
+  filter: contrast(0.9);
 }
 
 .lnd-margin {
-    margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 .ldn-card-cont {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 3px;
-    box-shadow: 0px 0px 7px var(--color-3);
-    background-color: var(--bg-color);
+  width: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0px 0px 7px var(--color-3);
+  background-color: var(--bg-color);
 }
 
 .ldn-card-cont:hover {
-    box-shadow: 0px 0px 9px var(--color-3);
+  box-shadow: 0px 0px 9px var(--color-3);
 }
 
 .ldn-card-cont>img {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    min-height: 227px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  min-height: 227px;
 }
 
 .card-title {
-    padding: 0.3rem 0.2rem 0.5rem;
-    font-size: 1.2rem;
-    color: black;
+  padding: 0.3rem 0.2rem 0.5rem;
+  font-size: 1.2rem;
+  color: black;
 }
 
 .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 0.3fr));
-    gap: 1.5rem;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 0.3fr));
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .lnd-discover {
-    width: 100%;
-    height: 20vw;
-    background: rgb(219, 243, 243);
-    margin: 2rem 0;
+  width: 100%;
+  height: 20vw;
+  background: rgb(219, 243, 243);
+  margin: 2rem 0;
 }
 
 .lnd-discover-content {
-    max-width: max(70%, 50rem);
-    margin: auto;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
-    flex-wrap: wrap;
+  max-width: max(70%, 50rem);
+  margin: auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  flex-wrap: wrap;
 }
 
 .disc-col-2>p {
-    font-size: 1.2rem;
-    margin: 3rem 0;
+  font-size: 1.2rem;
+  margin: 3rem 0;
 }
 
 .lnd-discover-content>h1 {
-    font-size: 4rem;
-    margin: 0.5rem 0;
-    text-align: right;
-    width: 300px;
-    font-family: var(--primary-font);
+  font-size: 4rem;
+  margin: 0.5rem 0;
+  text-align: right;
+  width: 300px;
+  font-family: var(--primary-font);
 }
 
 .disc-col-2 button {
-    float: right;
+  float: right;
 }
 
 /*article page*/
 .header-img {
   width: 100%;
   height: 200px;
-  background-image: url("/img/800px_COLOURBOX11893496.jpg");
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/800px_COLOURBOX11893496.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  object-fit: cover;
 }
 
 .article-container {
+<<<<<<< HEAD
 position: absolute;
+=======
+  z-index: 100;
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
   color: black;
   font-size: 24px;
   font-weight: bold;
-  transform: translate(-50%, -50%);
-  top: 39%;
-  left: 50%;
   background-color: white;
   font-family: var(--primary-font);
+  text-align: center;
+  transform: translateY(-50px);
+  display: block;
+  margin: auto;
+  max-width: 700px;
 }
 
 .short-description {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-family: var(--secondary-font);
+  max-width: 700px;
+  display: block;
+  margin: auto;
 }
 
 .image {
-  margin-top: 20%;
-  margin-left: 35%;
+  margin: 2rem auto 1rem;
   display: flex;
 
-  width: 60vw;
+  justify-content: center;
   height: 30vw;
-  padding: 1rem;
 }
 
 .card {
@@ -183,12 +187,12 @@ position: absolute;
   padding-right: 1rem;
 }
 
-.img-container > img {
+.img-container>img {
   width: auto;
   height: 100%;
 }
 
-.text-column > h2 {
+.text-column>h2 {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: var(--margin-bottom);
@@ -208,125 +212,10 @@ position: absolute;
   font-family: var(--secondary-font);
 }
 
-a.category {
-  margin-top: 0.6rem;
-  background-color: var(--bg-color);
-  display: inline-block;
-  padding: 0.3rem 0.6rem;
-  border-radius: 2px;
-  text-decoration: none;
-  font-family: var(--secondary-font);
-}
-
-a.category:hover {
-  background-color: var(--link-color);
-  text-decoration: none;
-}
-
-a.category > p {
-  color: white;
-  font-size: 0.9rem;
-}
-
-a.category > p:hover {
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 768px) {
-  .header-img {
-    width: 100%;
-    height: 200px;
-    background-image: url("/img/800px_COLOURBOX11893496.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-
-  .article-container {
-    position: absolute;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    transform: translate(-50%, -50%);
-    top: 39%;
-    left: 50%;
-    background-color: white;
-    font-family: var(--primary-font);
-}
-
-.short-description {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: var(--secondary-font);
-}
-
-.image {
-    margin-top: 20%;
-    margin-left: 35%;
-    display: flex;
-
-    width: 60vw;
-    height: 30vw;
-    padding: 1rem;
-}
-
-.card {
-    display: flex;
-    width: 90vw;
-    height: 15vw;
-    box-shadow: 0.5px 0.5px 7px var(--color-3);
-    border-radius: 2px;
-    padding: 1rem;
-    overflow: hidden;
-    min-width: 350px;
-    margin-top: 3%;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-.img-container {
-    width: max(20vw, 300px);
-    height: auto;
-    padding-right: 1rem;
-}
-
-.img-container>img {
-    width: auto;
-    height: 100%;
-}
-
-.text-column>h2 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--primary-font);
-}
-
-
-  .description {
-    line-height: 140%;
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--secondary-font);
-}
-
-.address {
-    font-size: 0.9rem;
-    color: var(--color-3);
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--secondary-font);
-}
-
 /*newsletter page*/
 .newsletter-page {
 
   background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/the-round-tower-2762438_1920.jpg);
-
-  background-image: url(/img/the-round-tower-2762438_1920.jpg);
-
-  background-image: url(img/the-round-tower-2762438_1920.jpg);
-
   background-repeat: no-repeat;
 }
 
@@ -374,14 +263,7 @@ a.category > p:hover {
 
 /*About page*/
 .about-heading-wrapper {
-
   background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/rosenborg-castle-4696852_1920.jpg);
-
-
-  background-image: url(/img/rosenborg-castle-4696852_1920.jpg);
-
-  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
-
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
@@ -392,16 +274,10 @@ a.category > p:hover {
 
 .about-wrap-heading {
   font-size: 4vw;
-
-  text-align: center;
-  padding-top: 10%;
-  color: white;
-
   font-family: var(--primary-font);
   color: #000;
   text-align: center;
   transform: translate(0%, 400%);
-
 }
 
 .about-main {
@@ -540,10 +416,466 @@ button:hover,
 .landing-btn.selected:hover {
   background-color: var(--link-color);
   border: 2px solid var(--link-color);
-=======
 }
 
 a.category {
+  margin-top: 0.6rem;
+  background-color: var(--bg-color);
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+}
+
+a.category:hover {
+  background-color: var(--link-color);
+  text-decoration: none;
+}
+
+a.category>p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+a.category>p:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-img {
+    width: 100%;
+    height: 200px;
+    background-image: url("/img/800px_COLOURBOX11893496.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .article-container {
+<<<<<<< HEAD
+=======
+
+    z-index: 100;
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    top: 39%;
+    left: 50%;
+    background-color: white;
+    font-family: var(--primary-font);
+  }
+
+  .short-description {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--secondary-font);
+  }
+
+  .image {
+    margin-top: 20%;
+    margin-left: 35%;
+    display: flex;
+
+    width: 60vw;
+    height: 30vw;
+    padding: 1rem;
+  }
+
+  .card {
+    display: flex;
+    width: 90vw;
+    height: 15vw;
+    box-shadow: 0.5px 0.5px 7px var(--color-3);
+    border-radius: 2px;
+    padding: 1rem;
+    overflow: hidden;
+    min-width: 350px;
+    margin-top: 3%;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .img-container {
+    width: max(20vw, 300px);
+    height: auto;
+    padding-right: 1rem;
+  }
+
+  .img-container>img {
+    width: auto;
+    height: 100%;
+  }
+
+  .text-column>h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--primary-font);
+  }
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
+  .description {
+    line-height: 140%;
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--secondary-font);
+  }
+
+  .address {
+    font-size: 0.9rem;
+    color: var(--color-3);
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--secondary-font);
+<<<<<<< HEAD
+=======
+  }
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
+}
+
+/*newsletter page*/
+.newsletter-page {
+<<<<<<< HEAD
+
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/the-round-tower-2762438_1920.jpg);
+
+  background-image: url(/img/the-round-tower-2762438_1920.jpg);
+
+  background-image: url(img/the-round-tower-2762438_1920.jpg);
+
+=======
+  background-image: url(img/the-round-tower-2762438_1920.jpg);
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
+  background-repeat: no-repeat;
+}
+
+.newsletter-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15em;
+  padding-left: 2em;
+}
+
+.news-heading {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+}
+
+.news-form {
+  font-family: var(--secondary-font);
+}
+
+.register-form .e-mail {
+  border: none;
+  width: 20vw;
+  height: 3vw;
+  opacity: 30%;
+}
+
+.register-form .sub-button {
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #0dc2e2;
+  width: 6vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.sub-button:hover {
+  background-color: var(--link-color);
+}
+
+/**/
+
+/*About page*/
+.about-heading-wrapper {
+<<<<<<< HEAD
+
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/rosenborg-castle-4696852_1920.jpg);
+
+
+  background-image: url(/img/rosenborg-castle-4696852_1920.jpg);
+
+  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+
+=======
+  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 400px;
+  max-height: auto;
+  margin-bottom: 3em;
+}
+
+.about-wrap-heading {
+  font-size: 4vw;
+<<<<<<< HEAD
+
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+
+=======
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
+  font-family: var(--primary-font);
+  color: #000;
+  text-align: center;
+  transform: translate(0%, 400%);
+<<<<<<< HEAD
+
+=======
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
+}
+
+.about-main {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0% 20% 0% 20%;
+}
+
+.column-about-content {
+  min-width: 280px;
+  text-align: left;
+}
+
+.about-page-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.about-heading {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.about-p {
+  font-family: var(--secondary-font);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 3em;
+  line-height: 1.5;
+}
+
+.about-subhead {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+form.get-in-touch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fill-form {
+  font-family: var(--secondary-font);
+  font-size: 1.2vw;
+}
+
+input {
+  width: 15rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.submit-button {
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #0dc2e2;
+  width: 5.5vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: var(--link-color);
+}
+
+/*Buttons*/
+
+/*Common styling for all buttons*/
+
+button {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 2px solid var(--bg-color);
+}
+
+/*Landing page area-category*/
+
+.landing-btn {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem 0.3rem 1rem 0;
+}
+
+.landing-btn.selected {
+  background: var(--bg-color);
+  color: white;
+}
+
+.landing-btn.unselected {
+  background: transparent;
+  color: var(--bg-color);
+  border: 2px solid var(--bg-color);
+}
+
+/*Forms button*/
+
+.forms-button {
+  background: var(--bg-color);
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin: 0 1rem 1rem 0;
+}
+
+/*Button hover, active and other states*/
+
+button:hover,
+.landing-btn.selected:hover {
+  background-color: var(--link-color);
+  border: 2px solid var(--link-color);
+}
+
+a.category {
+  margin-top: 0.6rem;
+  background-color: var(--bg-color);
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+}
+
+a.category:hover {
+  background-color: var(--link-color);
+  text-decoration: none;
+}
+
+a.category>p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+a.category>p:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-img {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/800px_COLOURBOX11893496.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+
+  }
+
+  .article-container {
+    z-index: 100;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: white;
+    font-family: var(--primary-font);
+    text-align: center;
+    transform: translateY(-50px);
+    display: block;
+    margin: auto;
+    max-width: 700px;
+  }
+
+  .short-description {
+    font-family: var(--secondary-font);
+    max-width: 700px;
+    display: block;
+    margin: auto;
+  }
+
+  .image {
+    margin: 2rem auto 1rem;
+    display: flex;
+
+    justify-content: center;
+    height: 30vw;
+  }
+
+  .card {
+    display: flex;
+    width: 80vw;
+    height: 40vw;
+    box-shadow: 0.5px 0.5px 7px var(--color-3);
+    border-radius: 2px;
+    padding: 1rem;
+    overflow: hidden;
+    min-width: 300px;
+    margin-top: 5%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .img-container {
+    width: max(50vw, 200px);
+    height: auto;
+    padding-right: 1rem;
+  }
+
+  .img-container>img {
+    width: auto;
+    height: 100%;
+  }
+
+  .text-column>h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--primary-font);
+  }
+
+  .description {
+    line-height: 140%;
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--secondary-font);
+  }
+
+  .address {
+    font-size: 0.9rem;
+    color: var(--color-3);
+    margin-bottom: var(--margin-bottom);
+    font-family: var(--secondary-font);
+  }
+
+  a.category {
     margin-top: 0.6rem;
     background-color: var(--bg-color);
     display: inline-block;
@@ -551,398 +883,293 @@ a.category {
     border-radius: 2px;
     text-decoration: none;
     font-family: var(--secondary-font);
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> ea48110bf66d72e84eae169d716f239157bee4fc
 
-a.category:hover {
+  a.category:hover {
     background-color: var(--link-color);
     text-decoration: none;
-}
+  }
 
-a.category>p {
+  a.category>p {
     color: white;
     font-size: 0.9rem;
-}
+  }
 
-a.category>p:hover {
+  a.category>p:hover {
     text-decoration: none;
-}
+  }
 
-@media only screen and (max-width: 768px) {
-    .header-img {
-        width: 100%;
-        height: 200px;
-        background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/800px_COLOURBOX11893496.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        object-fit: cover;
-
-    }
-
-    .article-container {
-        z-index: 100;
-        color: black;
-        font-size: 24px;
-        font-weight: bold;
-        background-color: white;
-        font-family: var(--primary-font);
-        text-align: center;
-        transform: translateY(-50px);
-        display: block;
-        margin: auto;
-        max-width: 700px;
-    }
-
-    .short-description {
-        font-family: var(--secondary-font);
-        max-width: 700px;
-        display: block;
-        margin: auto;
-    }
+  @media only screen and (max-width: 768px) {
 
     .image {
-        margin: 2rem auto 1rem;
-        display: flex;
-
-        justify-content: center;
-        height: 30vw;
+      height: 60vw;
     }
 
     .card {
-        display: flex;
-        width: 80vw;
-        height: 40vw;
-        box-shadow: 0.5px 0.5px 7px var(--color-3);
-        border-radius: 2px;
-        padding: 1rem;
-        overflow: hidden;
-        min-width: 300px;
-        margin-top: 5%;
-        margin-left: 40px;
-        margin-right: 40px;
+      display: flex;
+      width: 80vw;
+      height: 40vw;
+      box-shadow: 0.5px 0.5px 7px var(--color-3);
+      border-radius: 2px;
+      padding: 1rem;
+      overflow: hidden;
+      min-width: 300px;
+      margin-top: 5%;
+      margin-left: 40px;
+      margin-right: 40px;
     }
 
     .img-container {
-        width: max(50vw, 200px);
-        height: auto;
-        padding-right: 1rem;
+      width: max(50vw, 200px);
+      height: auto;
+      padding-right: 1rem;
     }
 
     .img-container>img {
-        width: auto;
-        height: 100%;
+      width: auto;
+      height: 100%;
     }
 
     .text-column>h2 {
-        font-size: 1rem;
-        font-weight: 600;
-        margin-bottom: var(--margin-bottom);
-        font-family: var(--primary-font);
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: var(--margin-bottom);
+      font-family: var(--primary-font);
     }
 
     .description {
-        line-height: 140%;
-        margin-bottom: var(--margin-bottom);
-        font-family: var(--secondary-font);
+      line-height: 140%;
+      margin-bottom: var(--margin-bottom);
+      font-family: var(--secondary-font);
     }
 
     .address {
-        font-size: 0.9rem;
-        color: var(--color-3);
-        margin-bottom: var(--margin-bottom);
-        font-family: var(--secondary-font);
+      font-size: 0.9rem;
+      color: var(--color-3);
+      margin-bottom: var(--margin-bottom);
+      font-family: var(--secondary-font);
     }
+  }
 
-    a.category {
-        margin-top: 0.6rem;
-        background-color: var(--bg-color);
-        display: inline-block;
-        padding: 0.3rem 0.6rem;
-        border-radius: 2px;
-        text-decoration: none;
-        font-family: var(--secondary-font);
-    }
+  /*newsletter page*/
+  .newsletter-page {
+    background-image: url(img/the-round-tower-2762438_1920.jpg);
+    background-repeat: no-repeat;
+  }
 
-    a.category:hover {
-        background-color: var(--link-color);
-        text-decoration: none;
-    }
+  .newsletter-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15em;
+    padding-left: 2em;
+  }
 
-    a.category>p {
-        color: white;
-        font-size: 0.9rem;
-    }
+  .news-heading {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+  }
 
-    a.category>p:hover {
-        text-decoration: none;
-    }
+  .news-form {
+    font-family: var(--secondary-font);
+  }
 
-    @media only screen and (max-width: 768px) {
+  .register-form .e-mail {
+    border: none;
+    width: 20vw;
+    height: 3vw;
+    opacity: 30%;
+  }
 
-        .image {
-            height: 60vw;
-        }
+  .register-form .sub-button {
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #0dc2e2;
+    width: 6vw;
+    height: 2vw;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
 
-        .card {
-            display: flex;
-            width: 80vw;
-            height: 40vw;
-            box-shadow: 0.5px 0.5px 7px var(--color-3);
-            border-radius: 2px;
-            padding: 1rem;
-            overflow: hidden;
-            min-width: 300px;
-            margin-top: 5%;
-            margin-left: 40px;
-            margin-right: 40px;
-        }
+  .sub-button:hover {
+    background-color: var(--link-color);
+  }
 
-        .img-container {
-            width: max(50vw, 200px);
-            height: auto;
-            padding-right: 1rem;
-        }
+  /**/
 
-        .img-container>img {
-            width: auto;
-            height: 100%;
-        }
+  /*About page*/
+  .about-heading-wrapper {
+    background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 400px;
+    max-height: auto;
+    margin-bottom: 3em;
+  }
 
-        .text-column>h2 {
-            font-size: 1rem;
-            font-weight: 600;
-            margin-bottom: var(--margin-bottom);
-            font-family: var(--primary-font);
-        }
+  .about-wrap-heading {
+    font-size: 4vw;
+    font-family: var(--primary-font);
+    color: #000;
+    text-align: center;
+    transform: translate(0%, 400%);
+  }
 
-        .description {
-            line-height: 140%;
-            margin-bottom: var(--margin-bottom);
-            font-family: var(--secondary-font);
-        }
+  .about-main {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0% 20% 0% 20%;
+  }
 
-        .address {
-            font-size: 0.9rem;
-            color: var(--color-3);
-            margin-bottom: var(--margin-bottom);
-            font-family: var(--secondary-font);
-        }
-    }
+  .column-about-content {
+    min-width: 280px;
+    text-align: left;
+  }
 
-    /*newsletter page*/
-    .newsletter-page {
-        background-image: url(img/the-round-tower-2762438_1920.jpg);
-        background-repeat: no-repeat;
-    }
+  .about-page-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
 
-    .newsletter-main {
-        display: flex;
-        flex-direction: column;
-        margin-top: 15em;
-        padding-left: 2em;
-    }
+  .about-heading {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 2em;
+  }
 
-    .news-heading {
-        font-family: var(--primary-font);
-        font-size: 2rem;
-    }
+  .about-p {
+    font-family: var(--secondary-font);
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 3em;
+    line-height: 1.5;
+  }
 
-    .news-form {
-        font-family: var(--secondary-font);
-    }
+  .about-subhead {
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+  }
 
-    .register-form .e-mail {
-        border: none;
-        width: 20vw;
-        height: 3vw;
-        opacity: 30%;
-    }
+  form.get-in-touch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-    .register-form .sub-button {
-        text-align: center;
-        transition: all 0.2s ease;
-        cursor: pointer;
-        text-transform: uppercase;
-        background-color: #0dc2e2;
-        width: 6vw;
-        height: 2vw;
-        border-radius: 5px;
-        border: none;
-        color: white;
-    }
+  .fill-form {
+    font-family: var(--secondary-font);
+    font-size: 1.2vw;
+  }
 
-    .sub-button:hover {
-        background-color: var(--link-color);
-    }
+  input {
+    width: 15rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
 
-    /**/
+  .submit-button {
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #0dc2e2;
+    width: 5.5vw;
+    height: 2vw;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
 
-    /*About page*/
-    .about-heading-wrapper {
-        background-image: url(img/rosenborg-castle-4696852_1920.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        max-width: 100%;
-        height: 400px;
-        max-height: auto;
-        margin-bottom: 3em;
-    }
+  .submit-button:hover {
+    background-color: var(--link-color);
+  }
 
-    .about-wrap-heading {
-        font-size: 4vw;
-        font-family: var(--primary-font);
-        color: #000;
-        text-align: center;
-        transform: translate(0%, 400%);
-    }
+  /*Buttons*/
 
-    .about-main {
-        display: flex;
-        flex-flow: column nowrap;
-        margin: 0% 20% 0% 20%;
-    }
+  /*Common styling for all buttons*/
 
-    .column-about-content {
-        min-width: 280px;
-        text-align: left;
-    }
+  button {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 2px solid var(--bg-color);
+  }
 
-    .about-page-image {
-        max-width: 100%;
-        height: auto;
-        margin-top: 1em;
-        margin-bottom: 2em;
-    }
+  /*Landing page area-category*/
 
-    .about-heading {
-        font-family: var(--primary-font);
-        font-weight: 600;
-        font-size: 2em;
-    }
+  .landing-btn {
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0.3rem 1rem 0;
+  }
 
-    .about-p {
-        font-family: var(--secondary-font);
-        font-size: 0.9rem;
-        font-weight: 400;
-        margin-bottom: 3em;
-        line-height: 1.5;
-    }
+  .landing-btn.selected {
+    background: var(--bg-color);
+    color: white;
+  }
 
-    .about-subhead {
-        font-family: var(--secondary-font);
-        font-weight: 600;
-        font-size: 1.5em;
-        text-align: center;
-    }
+  .landing-btn.unselected {
+    background: transparent;
+    color: var(--bg-color);
+    border: 2px solid var(--bg-color);
+  }
 
-    form.get-in-touch {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+  /*Forms button*/
 
-    .fill-form {
-        font-family: var(--secondary-font);
-        font-size: 1.2vw;
-    }
+  .forms-button {
+    background: var(--bg-color);
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0 1rem 1rem 0;
+  }
 
-    input {
-        width: 15rem;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-    }
+  /*Button hover, active and other states*/
 
-    .submit-button {
-        text-align: center;
-        transition: all 0.2s ease;
-        cursor: pointer;
-        text-transform: uppercase;
-        background-color: #0dc2e2;
-        width: 5.5vw;
-        height: 2vw;
-        border-radius: 5px;
-        border: none;
-        color: white;
-    }
+  button:hover,
+  .landing-btn.selected:hover {
+    background-color: var(--link-color);
+    border: 2px solid var(--link-color);
+  }
 
-    .submit-button:hover {
-        background-color: var(--link-color);
-    }
+  button:active,
+  .landing-btn.selected:active {
+    background-color: transparent;
+    border: solid 2px var(--link-color);
+    color: var(--link-color);
+  }
 
-    /*Buttons*/
+  .landing-btn.unselected:hover {
+    border: 2px solid var(--link-color);
+    color: var(--link-color);
+    background-color: transparent;
+  }
 
-    /*Common styling for all buttons*/
+  .landing-btn.unselected:active {
+    border: 2px solid var(--link-color);
+    color: white;
+    background-color: var(--link-color);
+  }
 
-    button {
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: all 0.2s ease;
-        cursor: pointer;
-        border: 2px solid var(--bg-color);
-    }
-
-    /*Landing page area-category*/
-
-    .landing-btn {
-        padding: 0.3rem 0.5rem;
-        border-radius: 5px;
-        margin: 0.5rem 0.3rem 1rem 0;
-    }
-
-    .landing-btn.selected {
-        background: var(--bg-color);
-        color: white;
-    }
-
-    .landing-btn.unselected {
-        background: transparent;
-        color: var(--bg-color);
-        border: 2px solid var(--bg-color);
-    }
-
-    /*Forms button*/
-
-    .forms-button {
-        background: var(--bg-color);
-        color: white;
-        padding: 0.7rem 2rem;
-        border-radius: 7px;
-        font-weight: 400;
-        font-size: 1rem;
-        letter-spacing: 1px;
-        margin: 0 1rem 1rem 0;
-    }
-
-    /*Button hover, active and other states*/
-
-    button:hover,
-    .landing-btn.selected:hover {
-        background-color: var(--link-color);
-        border: 2px solid var(--link-color);
-    }
-
-    button:active,
-    .landing-btn.selected:active {
-        background-color: transparent;
-        border: solid 2px var(--link-color);
-        color: var(--link-color);
-    }
-
-    .landing-btn.unselected:hover {
-        border: 2px solid var(--link-color);
-        color: var(--link-color);
-        background-color: transparent;
-    }
-
-    .landing-btn.unselected:active {
-        border: 2px solid var(--link-color);
-        color: white;
-        background-color: var(--link-color);
-    }
-
-    button:focus,
-    button:active,
-    button:focus-within {
-        outline: 0;
-    }
+  button:focus,
+  button:active,
+  button:focus-within {
+    outline: 0;
+  }
