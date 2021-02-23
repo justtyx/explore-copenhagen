@@ -1,0 +1,63 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 13px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        stroke-width: 7px;
+      }
+
+      .cls-5 {
+        stroke-width: 11px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect class="cls-1" x="141.93" y="198.18" width="84.04" height="180.58"/>
+      <polyline class="cls-2" points="271.8 283.09 271.8 180.92 358.07 153.68 358.05 378.76 274.02 378.76 271.8 378.76 226.39 378.76 227.3 276.28 278 276.5"/>
+    </g>
+    <rect class="cls-3" x="161" y="229.31" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="192.64" y="229.31" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="161.38" y="262.27" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="193.02" y="262.27" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="161.38" y="295.87" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="193.02" y="295.87" width="13.72" height="13.72"/>
+    <rect class="cls-4" x="163.49" y="331.67" width="41.43" height="41.77"/>
+    <rect class="cls-5" x="157.37" y="168.21" width="51.76" height="30.88"/>
+    <line class="cls-4" x1="184.61" y1="121.24" x2="184.61" y2="168.66"/>
+    <rect class="cls-3" x="294.26" y="206.27" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="325.9" y="206.27" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="294.26" y="238.05" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="325.9" y="238.05" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="251.26" y="296.01" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="287.44" y="296.01" width="13.72" height="13.72"/>
+    <rect class="cls-3" x="323.38" y="296.01" width="13.72" height="13.72"/>
+    <rect class="cls-4" x="273.27" y="331.72" width="41.43" height="41.77"/>
+    <line class="cls-4" x1="294" y1="333.04" x2="294" y2="374.81"/>
+    <line class="cls-4" x1="184.61" y1="332.13" x2="184.61" y2="373.9"/>
+  </g>
+</svg>
