@@ -4,7 +4,7 @@
 h1 {
     font-family: 'Montserrat';
     margin-left: 8vw;
-    margin-top: 6vh;
+    margin-top: 8vh;
     font-size: 3vw;
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 .category:hover {
-    background-color: #fed642;;
+    background-color: #fed642;
 }
 
 .categoryimage {
