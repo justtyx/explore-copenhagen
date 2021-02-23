@@ -23,7 +23,7 @@ body {
     width: 50vw;
 }
 
-button, .explore {
+.menu button, .explore {
     font-family: 'Montserrat';
     font-weight: 500;
     background: none;
