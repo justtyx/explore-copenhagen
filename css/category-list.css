@@ -4,76 +4,88 @@
 h1 {
     font-family: 'Montserrat';
     margin-left: 8vw;
-    margin-top: 10vh;
+    margin-top: 6vh;
     font-size: 3vw;
 }
 
 .categories {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5vw;
     row-gap: 5vh;
-    margin-top: 2vw;
+    margin-top: 3vw;
     margin-left: 8vw;
     margin-right: 8vw;
+    margin-bottom: 3vw;
 }
 
 .category {
-    position: relative;
-    margin: 0;
+    width: 13vw;
+    height: 13vw;
+    margin-bottom: 10vh;
     padding: 0;
     box-shadow: 1px 1px 7px gray;
+    background-color: #0dc2e2;;
+}
+
+.category:hover {
+    background-color: #fed642;;
 }
 
 .categoryimage {
     width: 100%;
     height: 100%;
-    position: relative;
     padding: 0;
-    margin: 0;
-    filter:blur(1px);
+    margin-bottom: 0.5vw;
 }
 
 .categoryname {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 2vw;
-    text-align: center;
-    color: whitesmoke;
-    -webkit-text-stroke: 0.5px #201E1E;
-    width: 18vw;
+    font-size: 1.5vw;
+    color: black;
     font-family: 'Montserrat';
     font-weight: 700;
-    text-transform: uppercase;
+    text-align: center;
 }
 
-.categoryimage:hover {
-    z-index: 1;
-    filter:blur(0);
-}
-
-#barcategory {
-    justify-self: left;
+a {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
     
     .categories {
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        row-gap: 5vw;
+        margin-bottom: 0;
+    }
+
+    a {
+        height: 15vw;
+    }
+
+    .category {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        align-items: center;
+        height: 15vw;
     }
 
     .categoryname {
-        font-size: 3vw;
-    }
-
-    h1 {
-        font-size: 4.5vw;
+        font-size: 16px;
+        color: white;
+        justify-self: center;
     }
 
     .categoryimage {
-        filter: blur(0);
+        width: 20vw;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 5vw;
     }
 }

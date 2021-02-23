@@ -1,0 +1,45 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 7px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 25px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <circle class="cls-1" cx="265.02" cy="151.37" r="19.27" transform="translate(-37.22 108.93) rotate(-21.74)"/>
+      <path class="cls-1" d="M199.91,268l34.69-77.29A14.75,14.75,0,0,1,254,183.32h0a14.75,14.75,0,0,1,7.4,19.44L226.75,280"/>
+      <line class="cls-2" x1="253.15" y1="191.55" x2="291.25" y2="234.4"/>
+      <line class="cls-2" x1="291.52" y1="234.9" x2="323.51" y2="225.4"/>
+      <g>
+        <line class="cls-2" x1="250.61" y1="190.4" x2="184.25" y2="206.4"/>
+        <line class="cls-2" x1="184.3" y1="206.43" x2="182.07" y2="241.8"/>
+      </g>
+      <g>
+        <line class="cls-2" x1="210.12" y1="268.57" x2="252.41" y2="298.39"/>
+        <line class="cls-2" x1="252.41" y1="298.39" x2="248.95" y2="357.4"/>
+      </g>
+      <g>
+        <line class="cls-2" x1="205.95" y1="274.57" x2="188.14" y2="308.49"/>
+        <line class="cls-2" x1="185.84" y1="312.36" x2="144.25" y2="305.4"/>
+      </g>
+    </g>
+    <circle class="cls-3" cx="331.75" cy="343.9" r="24"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 11px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 7px;
+      }
+
+      .cls-4 {
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="156.38" y="139" width="187" height="222"/>
+    <path class="cls-2" d="M319.88,340h-140V162h140Z"/>
+    <line class="cls-2" x1="319.63" y1="162" x2="343.63" y2="139"/>
+    <line class="cls-2" x1="179.63" y1="162" x2="156.63" y2="139"/>
+    <line class="cls-2" x1="179.88" y1="340" x2="156.38" y2="361"/>
+    <line class="cls-2" x1="319.88" y1="340" x2="343.38" y2="361"/>
+    <circle class="cls-3" cx="287.54" cy="200.09" r="16.09"/>
+    <path class="cls-4" d="M179.63,276c3.36,2.22,17.74,1.28,31,6,9.64,3.44,18.5,12.55,23,15,15.83,8.62,24.77,13.49,35,16,8.35,2.05,26.2,4.65,51-6"/>
+    <path class="cls-4" d="M314.63,261c-13.19,2-21.15,6.89-26,11-5.65,4.78-7.31,8.71-14,14-7.36,5.81-19.86,15.57-25,17"/>
+  </g>
+</svg>

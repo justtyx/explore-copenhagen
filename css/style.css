@@ -128,40 +128,40 @@ a:hover {
 .header-img {
     width: 100%;
     height: 200px;
-    background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/800px_COLOURBOX11893496.jpg);
+    background-image: url("/img/800px_COLOURBOX11893496.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    object-fit: cover;
-
 }
 
 .article-container {
     z-index: 100;
+    position: absolute;
     color: black;
     font-size: 24px;
     font-weight: bold;
+    transform: translate(-50%, -50%);
+    top: 39%;
+    left: 50%;
     background-color: white;
     font-family: var(--primary-font);
-    text-align: center;
-    transform: translateY(-50px);
-    display: block;
-    margin: auto;
-    max-width: 700px;
 }
 
 .short-description {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: var(--secondary-font);
-    max-width: 700px;
-    display: block;
-    margin: auto;
 }
 
 .image {
-    margin: 2rem auto 1rem;
+    margin-top: 20%;
+    margin-left: 35%;
     display: flex;
 
-    justify-content: center;
+    width: 60vw;
     height: 30vw;
+    padding: 1rem;
 }
 
 .card {
@@ -234,9 +234,43 @@ a.category>p:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .header-img {
+        width: 100%;
+        height: 200px;
+        background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/800px_COLOURBOX11893496.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .article-container {
+        z-index: 100;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: white;
+        font-family: var(--primary-font);
+        text-align: center;
+        transform: translateY(-50px);
+        display: block;
+        margin: auto;
+        max-width: 700px;
+    }
+
+    .short-description {
+        font-family: var(--secondary-font);
+        max-width: 700px;
+        display: block;
+        margin: auto;
+    }
 
     .image {
-        height: 60vw;
+        margin: 2rem auto 1rem;
+        display: flex;
+
+        justify-content: center;
+        height: 30vw;
     }
 
     .card {
@@ -283,222 +317,298 @@ a.category>p:hover {
         margin-bottom: var(--margin-bottom);
         font-family: var(--secondary-font);
     }
-}
 
-/*newsletter page*/
-.newsletter-page {
-    background-image: url(/img/the-round-tower-2762438_1920.jpg);
-    background-repeat: no-repeat;
-}
+    a.category {
+        margin-top: 0.6rem;
+        background-color: var(--bg-color);
+        display: inline-block;
+        padding: 0.3rem 0.6rem;
+        border-radius: 2px;
+        text-decoration: none;
+        font-family: var(--secondary-font);
+    }
 
-.newsletter-main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15em;
-    padding-left: 2em;
-}
+    a.category:hover {
+        background-color: var(--link-color);
+        text-decoration: none;
+    }
 
-.news-heading {
-    font-family: var(--primary-font);
-    font-size: 2rem;
-}
+    a.category>p {
+        color: white;
+        font-size: 0.9rem;
+    }
 
-.news-form {
-    font-family: var(--secondary-font);
-}
+    a.category>p:hover {
+        text-decoration: none;
+    }
 
-.register-form .e-mail {
-    border: none;
-    width: 20vw;
-    height: 3vw;
-    opacity: 30%;
-}
+    @media only screen and (max-width: 768px) {
 
-.register-form .sub-button {
-    text-align: center;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: #0dc2e2;
-    width: 6vw;
-    height: 2vw;
-    border-radius: 5px;
-    border: none;
-    color: white;
-}
+        .image {
+            height: 60vw;
+        }
 
-.sub-button:hover {
-    background-color: var(--link-color);
-}
+        .card {
+            display: flex;
+            width: 80vw;
+            height: 40vw;
+            box-shadow: 0.5px 0.5px 7px var(--color-3);
+            border-radius: 2px;
+            padding: 1rem;
+            overflow: hidden;
+            min-width: 300px;
+            margin-top: 5%;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
 
-/**/
+        .img-container {
+            width: max(50vw, 200px);
+            height: auto;
+            padding-right: 1rem;
+        }
 
-/*About page*/
-.about-heading-wrapper {
-    background-image: url(/img/rosenborg-castle-4696852_1920.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 100%;
-    height: 400px;
-    max-height: auto;
-    margin-bottom: 3em;
-}
+        .img-container>img {
+            width: auto;
+            height: 100%;
+        }
 
-.about-wrap-heading {
-    font-size: 4vw;
-    text-align: center;
-    padding-top: 10%;
-    color: white;
-}
+        .text-column>h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: var(--margin-bottom);
+            font-family: var(--primary-font);
+        }
 
-.about-main {
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 0% 20% 0% 20%;
-}
+        .description {
+            line-height: 140%;
+            margin-bottom: var(--margin-bottom);
+            font-family: var(--secondary-font);
+        }
 
-.column-about-content {
-    min-width: 280px;
-    text-align: left;
-}
+        .address {
+            font-size: 0.9rem;
+            color: var(--color-3);
+            margin-bottom: var(--margin-bottom);
+            font-family: var(--secondary-font);
+        }
+    }
 
-.about-page-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 1em;
-    margin-bottom: 2em;
-}
+    /*newsletter page*/
+    .newsletter-page {
+        background-image: url(img/the-round-tower-2762438_1920.jpg);
+        background-repeat: no-repeat;
+    }
 
-.about-heading {
-    font-family: var(--primary-font);
-    font-weight: 600;
-    font-size: 2em;
-}
+    .newsletter-main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15em;
+        padding-left: 2em;
+    }
 
-.about-p {
-    font-family: var(--secondary-font);
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin-bottom: 3em;
-    line-height: 1.5;
-}
+    .news-heading {
+        font-family: var(--primary-font);
+        font-size: 2rem;
+    }
 
-.about-subhead {
-    font-family: var(--secondary-font);
-    font-weight: 600;
-    font-size: 1.5em;
-    text-align: center;
-}
+    .news-form {
+        font-family: var(--secondary-font);
+    }
 
-form.get-in-touch {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+    .register-form .e-mail {
+        border: none;
+        width: 20vw;
+        height: 3vw;
+        opacity: 30%;
+    }
 
-.fill-form {
-    font-family: var(--secondary-font);
-    font-size: 1.2vw;
-}
+    .register-form .sub-button {
+        text-align: center;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        text-transform: uppercase;
+        background-color: #0dc2e2;
+        width: 6vw;
+        height: 2vw;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
 
-input {
-    width: 15rem;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
+    .sub-button:hover {
+        background-color: var(--link-color);
+    }
 
-.submit-button {
-    text-align: center;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: #0dc2e2;
-    width: 5.5vw;
-    height: 2vw;
-    border-radius: 5px;
-    border: none;
-    color: white;
-}
+    /**/
 
-.submit-button:hover {
-    background-color: var(--link-color);
-}
+    /*About page*/
+    .about-heading-wrapper {
+        background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
+        height: 400px;
+        max-height: auto;
+        margin-bottom: 3em;
+    }
 
-/*Buttons*/
+    .about-wrap-heading {
+        font-size: 4vw;
+        font-family: var(--primary-font);
+        color: #000;
+        text-align: center;
+        transform: translate(0%, 400%);
+    }
 
-/*Common styling for all buttons*/
+    .about-main {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0% 20% 0% 20%;
+    }
 
-button {
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    border: 2px solid var(--bg-color);
-}
+    .column-about-content {
+        min-width: 280px;
+        text-align: left;
+    }
 
-/*Landing page area-category*/
+    .about-page-image {
+        max-width: 100%;
+        height: auto;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
 
-.landing-btn {
-    padding: 0.3rem 0.5rem;
-    border-radius: 5px;
-    margin: 0.5rem 0.3rem 1rem 0;
-}
+    .about-heading {
+        font-family: var(--primary-font);
+        font-weight: 600;
+        font-size: 2em;
+    }
 
-.landing-btn.selected {
-    background: var(--bg-color);
-    color: white;
-}
+    .about-p {
+        font-family: var(--secondary-font);
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-bottom: 3em;
+        line-height: 1.5;
+    }
 
-.landing-btn.unselected {
-    background: transparent;
-    color: var(--bg-color);
-    border: 2px solid var(--bg-color);
-}
+    .about-subhead {
+        font-family: var(--secondary-font);
+        font-weight: 600;
+        font-size: 1.5em;
+        text-align: center;
+    }
 
-/*Forms button*/
+    form.get-in-touch {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
-.forms-button {
-    background: var(--bg-color);
-    color: white;
-    padding: 0.7rem 2rem;
-    border-radius: 7px;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    margin: 0 1rem 1rem 0;
-}
+    .fill-form {
+        font-family: var(--secondary-font);
+        font-size: 1.2vw;
+    }
 
-/*Button hover, active and other states*/
+    input {
+        width: 15rem;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
 
-button:hover,
-.landing-btn.selected:hover {
-    background-color: var(--link-color);
-    border: 2px solid var(--link-color);
-}
+    .submit-button {
+        text-align: center;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        text-transform: uppercase;
+        background-color: #0dc2e2;
+        width: 5.5vw;
+        height: 2vw;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
 
-button:active,
-.landing-btn.selected:active {
-    background-color: transparent;
-    border: solid 2px var(--link-color);
-    color: var(--link-color);
-}
+    .submit-button:hover {
+        background-color: var(--link-color);
+    }
 
-.landing-btn.unselected:hover {
-    border: 2px solid var(--link-color);
-    color: var(--link-color);
-    background-color: transparent;
-}
+    /*Buttons*/
 
-.landing-btn.unselected:active {
-    border: 2px solid var(--link-color);
-    color: white;
-    background-color: var(--link-color);
-}
+    /*Common styling for all buttons*/
 
-button:focus,
-button:active,
-button:focus-within {
-    outline: 0;
-}
+    button {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        border: 2px solid var(--bg-color);
+    }
+
+    /*Landing page area-category*/
+
+    .landing-btn {
+        padding: 0.3rem 0.5rem;
+        border-radius: 5px;
+        margin: 0.5rem 0.3rem 1rem 0;
+    }
+
+    .landing-btn.selected {
+        background: var(--bg-color);
+        color: white;
+    }
+
+    .landing-btn.unselected {
+        background: transparent;
+        color: var(--bg-color);
+        border: 2px solid var(--bg-color);
+    }
+
+    /*Forms button*/
+
+    .forms-button {
+        background: var(--bg-color);
+        color: white;
+        padding: 0.7rem 2rem;
+        border-radius: 7px;
+        font-weight: 400;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin: 0 1rem 1rem 0;
+    }
+
+    /*Button hover, active and other states*/
+
+    button:hover,
+    .landing-btn.selected:hover {
+        background-color: var(--link-color);
+        border: 2px solid var(--link-color);
+    }
+
+    button:active,
+    .landing-btn.selected:active {
+        background-color: transparent;
+        border: solid 2px var(--link-color);
+        color: var(--link-color);
+    }
+
+    .landing-btn.unselected:hover {
+        border: 2px solid var(--link-color);
+        color: var(--link-color);
+        background-color: transparent;
+    }
+
+    .landing-btn.unselected:active {
+        border: 2px solid var(--link-color);
+        color: white;
+        background-color: var(--link-color);
+    }
+
+    button:focus,
+    button:active,
+    button:focus-within {
+        outline: 0;
+    }
