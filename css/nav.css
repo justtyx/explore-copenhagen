@@ -23,7 +23,7 @@ body {
     width: 50vw;
 }
 
-.menu button, .explore {
+.navbutton, .explore {
     font-family: 'Montserrat';
     font-weight: 500;
     background: none;
@@ -31,13 +31,13 @@ body {
     font-size: 16px;
 }
 
-button .menulink {
+.navbutton {
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 
-.explore:hover, button .menulink:hover {
+.explore:hover, .navbutton:hover {
     font-weight: 500;
     color: #fed642;
 }
