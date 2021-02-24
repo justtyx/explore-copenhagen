@@ -77,14 +77,16 @@ a {
   margin-right: 80px;
 }
 
-.card > img {
+.card>img {
   width: 25%;
 }
+
 .text-column {
   width: 70%;
   margin-left: 20px;
 }
-.text-column > h2 {
+
+.text-column>h2 {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.2rem;
@@ -260,12 +262,12 @@ a.category:hover {
   text-decoration: none;
 }
 
-a.category > p {
+a.category>p {
   color: white;
   font-size: 0.9rem;
 }
 
-a.category > p:hover {
+a.category>p:hover {
   text-decoration: none;
 }
 
@@ -297,17 +299,18 @@ a.category > p:hover {
     display: block;
     margin-left: 40px;
   }
+
   .card {
     margin-top: 5%;
     margin-left: 30px;
   }
 
-  .card > img {
+  .card>img {
     height: auto;
     width: 35%;
   }
 
-  .text-column > h2 {
+  .text-column>h2 {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: var(--margin-bottom);
@@ -354,6 +357,7 @@ a.category > p:hover {
   background: transparent;
   font-size: 1.2em;
 }
+
 /**/
 
 /*About page*/
@@ -513,12 +517,12 @@ a.category:hover {
   text-decoration: none;
 }
 
-a.category > p {
+a.category>p {
   color: white;
   font-size: 0.9rem;
 }
 
-a.category > p:hover {
+a.category>p:hover {
   text-decoration: none;
 }
 
@@ -551,9 +555,9 @@ button {
 /*Landing page area-category*/
 
 .landing-btn {
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 5px;
-  margin: 0.5rem 0.3rem 1rem 0;
+  margin: 0.5rem 0.3rem 1.3rem 0;
 }
 
 .landing-btn.selected {
@@ -598,4 +602,55 @@ button:focus,
 button:active,
 button:focus-within {
   outline: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  font-size: 0.8rem;
+  font-family: var(--secondary-font);
+  margin: 4rem 1.5rem 0;
+}
+
+footer>p {
+  width: 1fr;
+  max-width: 500px;
+  justify-self: start;
+  margin: 0.3rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: var(--bg-color);
+}
+
+.soMe>a>img {
+  width: 1.5vw;
+  min-width: 25px;
+}
+
+.soMe>a {
+  margin: 0.3rem 0.1rem;
+}
+
+.soMe>a:first-child {
+  margin-left: 0;
+}
+
+.soMe>a:hover {
+  filter: invert(40%) sepia(60%) saturate(3586%) hue-rotate(160deg) brightness(110%) contrast(100%);
+}
+
+.soMe {
+  justify-self: end;
+  display: flex;
+  margin: 1rem;
+  margin-left: 0;
+  flex-wrap: nowrap;
 }
