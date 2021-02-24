@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 388 388" style="enable-background:new 0 0 388 388;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#000000;stroke-width:14;stroke-miterlimit:10;}
+	.st2{stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="194" cy="194" r="194"/>
+<g id="rower">
+	<path class="st1" d="M110.2,161.2c-38.6-11.2-79.1,11-90.3,49.7C8.7,249.6,31,290,69.6,301.2c13.3,3.8,27.3,3.8,40.6,0"/>
+	<circle class="st1" cx="298.1" cy="231.2" r="72.9"/>
+	<circle class="st2" cx="298.1" cy="231.2" r="9.5"/>
+	<circle class="st2" cx="91.9" cy="231.2" r="9.5"/>
+	<polygon class="st3" points="199.7,204.7 91.9,228.4 145.1,142.4 265.9,134.1 	"/>
+	<line class="st3" x1="199.7" y1="204.7" x2="124" y2="106.3"/>
+	<path class="st2" d="M159,97.8c0,6.3-15.7,8.5-35,8.5s-35-2.3-35-8.5c0-6.3,15.7-2.8,35-2.8S159,91.5,159,97.8z"/>
+	<path class="st3" d="M256.5,84.5"/>
+	<path class="st3" d="M298.1,98.7"/>
+	<path class="st3" d="M256.5,84.5"/>
+	<path class="st3" d="M307.6,100.6c0-4.7-1.2-12.2-11.4-15.1c-9.1-2.6-26.4-0.9-39.7-0.9l41.6,146.7"/>
+</g>
+</svg>

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Article page</title>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/nav.css" />
 </head>
@@ -17,19 +18,14 @@
       <img src="img/logo.svg" alt="logo" class="logo">
 
       <nav class="menu">
-        <button class="navbutton"><a class="menulink" href="index.html">Home</a></button>
-        <div class="dropdown">
-                <button class="explore">Explore</button>
-                <ul>
-                  <li><a class="menulink" href="category-list.html">Categories</a></li>
-                  <li><a class="menulink" href="#">Areas</a></li>
-                  <li><a class="menulink" href="#">Discover weekly</a></li>
-              </ul>
-            </div>
-        <button class="navbutton"><a class="menulink" href="about.html">About</a></button>
-        <button class="navbutton"><a class="menulink" href="newsletter.html">Newsletter</a></button>
-    </ul>
-</nav>
+        <a class="menulink" href="index.html">Home</a></button>
+        <a class="menulink" href="category-list.html">Categories</a>
+        <a class="menulink" href="area-list.html">Areas</a>
+        <!-- <a class="menulink" href="#">Discover weekly</a> -->
+        <a class="menulink" href="about.html">About</a>
+        <a class="menulink" href="newsletter.html">Newsletter</a>
+        </ul>
+      </nav>
 
       <div class="hamburger">
         <div class="line1"></div>
@@ -40,7 +36,7 @@
     </div>
     <div class="header-img"></div>
     <div class="article-container">
-      <h1>ARTICLE- COPENHAGEN</h1>
+      <h1 class="article-headline">ARTICLE- COPENHAGEN</h1>
     </div>
   </header>
 
@@ -57,7 +53,8 @@
     <section class="image">
       <img src="img/6e080d35784777.5703c948cde16.png" alt="map" />
     </section>
-    <section class="card">
+    <section class="cards-place"></section>
+    <!-- <section class="card">
       <div class="img-container">
         <img src="img/ava-coploff-tcE9zSc2SU8-unsplash.jpg" alt="Copenhagen" />
       </div>
@@ -110,10 +107,30 @@
           <p>Category</p>
         </a>
       </div>
-    </section>
+    </section> -->
   </article>
+  <template>
+    <section class="card">
+      <div class="img-container">
+        <img src="img/ava-coploff-tcE9zSc2SU8-unsplash.jpg" alt="Copenhagen" />
+      </div>
+      <div class="text-column">
+        <h2>Location's name</h2>
+        <p class="address">Address</p>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <a href="#" class="typography-sample category">
+          <p>Category</p>
+        </a>
+      </div>
+    </section>
+  </template>
   <script src="js/nav.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/article.js"></script>
 </body>
 
 </html>
