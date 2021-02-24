@@ -1,0 +1,41 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-width: 11px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 9px;
+      }
+
+      .cls-4 {
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="102.7" y="245.49" width="295.56" height="112.55"/>
+    <rect class="cls-1" x="398.26" y="227.09" width="58.73" height="131.31"/>
+    <rect class="cls-1" x="42.7" y="227.09" width="58.73" height="131.31"/>
+    <polygon class="cls-2" points="427.94 197 391.31 225.29 463.94 225.29 427.94 197"/>
+    <polygon class="cls-2" points="72.69 197 36.06 225.29 108.69 225.29 72.69 197"/>
+    <line class="cls-1" x1="90.7" y1="210.86" x2="407.1" y2="210.86"/>
+    <line class="cls-3" x1="255.53" y1="141.6" x2="255.53" y2="210.86"/>
+    <polygon class="cls-4" points="285.21 169.74 255.53 159.64 255.53 141.6 285.21 151.7 285.21 169.74"/>
+  </g>
+</svg>

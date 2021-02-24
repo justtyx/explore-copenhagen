@@ -1,0 +1,37 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-width: 11px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 9px;
+      }
+
+      .cls-3 {
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="158" y="200.58" width="184" height="198"/>
+    <polygon class="cls-1" points="319.5 133.42 179.5 132.42 157.5 199.42 342.5 199.42 319.5 133.42"/>
+    <rect class="cls-2" x="205.59" y="101.42" width="22" height="30"/>
+    <g>
+      <polyline class="cls-3" points="266.76 158.24 266.76 187.42 237.57 187.42 237.57 158.24"/>
+      <polyline class="cls-3" points="266.76 158.24 252.09 144.92 237.57 158.24"/>
+    </g>
+  </g>
+</svg>
