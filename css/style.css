@@ -75,7 +75,7 @@ a {
   margin-right: 80px;
 }
 
-.card>img {
+.card > img {
   width: 25%;
 }
 
@@ -85,7 +85,7 @@ a {
   margin-top: 20px;
 }
 
-.text-column>h2 {
+.text-column > h2 {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.2rem;
@@ -261,12 +261,12 @@ a.category:hover {
   text-decoration: none;
 }
 
-a.category>p {
+a.category > p {
   color: white;
   font-size: 0.9rem;
 }
 
-a.category>p:hover {
+a.category > p:hover {
   text-decoration: none;
 }
 
@@ -312,13 +312,13 @@ a.category>p:hover {
     padding-right: 0;
   }
 
-  .card>img {
+  .card > img {
     height: auto;
     width: 85%;
     padding-right: 0;
   }
 
-  .text-column>h2 {
+  .text-column > h2 {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: var(--margin-bottom);
@@ -529,12 +529,12 @@ a.category:hover {
   text-decoration: none;
 }
 
-a.category>p {
+a.category > p {
   color: white;
   font-size: 0.9rem;
 }
 
-a.category>p:hover {
+a.category > p:hover {
   text-decoration: none;
 }
 
@@ -626,7 +626,7 @@ footer {
   margin: 4rem 1.5rem 0;
 }
 
-footer>p {
+footer > p {
   width: 1fr;
   max-width: 500px;
   justify-self: start;
@@ -642,21 +642,22 @@ footer a:hover {
   color: var(--bg-color);
 }
 
-.soMe>a>img {
+.soMe > a > img {
   width: 1.5vw;
   min-width: 25px;
 }
 
-.soMe>a {
+.soMe > a {
   margin: 0.3rem 0.1rem;
 }
 
-.soMe>a:first-child {
+.soMe > a:first-child {
   margin-left: 0;
 }
 
-.soMe>a:hover {
-  filter: invert(40%) sepia(60%) saturate(3586%) hue-rotate(160deg) brightness(110%) contrast(100%);
+.soMe > a:hover {
+  filter: invert(40%) sepia(60%) saturate(3586%) hue-rotate(160deg)
+    brightness(110%) contrast(100%);
 }
 
 .soMe {
