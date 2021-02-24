@@ -90,12 +90,12 @@ a {
   padding-right: 1rem;
 }
 
-.img-container>img {
+.img-container > img {
   width: auto;
   height: 100%;
 }
 
-.text-column>h2 {
+.text-column > h2 {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.2rem;
@@ -115,160 +115,7 @@ a {
   font-family: var(--secondary-font);
 }
 
-/*newsletter page*/
-.newsletter-page {
-
-  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/the-round-tower-2762438_1920.jpg);
-  background-repeat: no-repeat;
-}
-
-.newsletter-main {
-  display: flex;
-  flex-direction: column;
-  margin-top: 15em;
-  padding-left: 2em;
-}
-
-.news-heading {
-  font-family: var(--primary-font);
-  font-size: 2rem;
-}
-
-.news-form {
-  font-family: var(--secondary-font);
-}
-
-.register-form .e-mail {
-  border: none;
-  width: 20vw;
-  height: 3vw;
-  opacity: 30%;
-}
-
-.register-form .sub-button {
-  text-align: center;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: #0dc2e2;
-  width: 6vw;
-  height: 2vw;
-  border-radius: 5px;
-  border: none;
-  color: white;
-}
-
-.sub-button:hover {
-  background-color: var(--link-color);
-}
-
 /**/
-
-/*About page*/
-.about-heading-wrapper {
-  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/rosenborg-castle-4696852_1920.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 100%;
-  height: 400px;
-  max-height: auto;
-  margin-bottom: 3em;
-}
-
-.about-wrap-heading {
-  font-size: 4vw;
-  font-family: var(--primary-font);
-  color: #000;
-  text-align: center;
-  transform: translate(0%, 400%);
-}
-
-.about-main {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 0% 20% 0% 20%;
-}
-
-.column-about-content {
-  min-width: 280px;
-  text-align: left;
-}
-
-.about-page-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
-.about-heading {
-  font-family: var(--primary-font);
-  font-weight: 600;
-  font-size: 2em;
-}
-
-.about-p {
-  font-family: var(--secondary-font);
-  font-size: 0.9rem;
-  font-weight: 400;
-  margin-bottom: 3em;
-  line-height: 1.5;
-}
-
-.about-subhead {
-  font-family: var(--secondary-font);
-  font-weight: 600;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-form {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  padding: 1em;
-  max-width: 700px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  padding: 2em;
-}
-
-label {
-  grid-column: 1/ 2;
-  font-family: var(--secondary-font);
-}
-
-input,
-.submit-button {
-  grid-column: 2 / 3;
-}
-
-form input {
-  width: 25rem;
-  height: 2rem;
-  margin-bottom: 1rem;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
-.submit-button {
-  text-align: center;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: #0dc2e2;
-  width: 9.5vw;
-  height: 2.5vw;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  transform: translate(70%, 30%);
-}
-
-.submit-button:hover {
-  background-color: var(--link-color);
-}
-
 
 a.category {
   margin-top: 0.6rem;
@@ -285,12 +132,12 @@ a.category:hover {
   text-decoration: none;
 }
 
-a.category>p {
+a.category > p {
   color: white;
   font-size: 0.9rem;
 }
 
-a.category>p:hover {
+a.category > p:hover {
   text-decoration: none;
 }
 
@@ -304,7 +151,6 @@ a.category>p:hover {
   }
 
   .article-container {
-
     z-index: 100;
     position: absolute;
     color: black;
@@ -355,12 +201,12 @@ a.category>p:hover {
     padding-right: 1rem;
   }
 
-  .img-container>img {
+  .img-container > img {
     width: auto;
     height: 100%;
   }
 
-  .text-column>h2 {
+  .text-column > h2 {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: var(--margin-bottom);
@@ -383,14 +229,15 @@ a.category>p:hover {
 
 /*newsletter page*/
 .newsletter-page {
-  /* background-image: url(img/the-round-tower-2762438_1920.jpg); */
+  background-image: url(/img/newsletter-image.jpg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .newsletter-main {
   display: flex;
   flex-direction: column;
-  margin-top: 15em;
+  margin-top: 12em;
   padding-left: 2em;
 }
 
@@ -399,59 +246,48 @@ a.category>p:hover {
   font-size: 2rem;
 }
 
-.news-form {
-  font-family: var(--secondary-font);
-}
-
-.register-form .e-mail {
-  border: none;
-  width: 20vw;
+#e-mail {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 34vw;
   height: 3vw;
-  opacity: 30%;
+  background: transparent;
+  font-size: 1.2em;
 }
-
-.register-form .sub-button {
-  text-align: center;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: #0dc2e2;
-  width: 6vw;
-  height: 2vw;
-  border-radius: 5px;
-  border: none;
-  color: white;
-}
-
-.sub-button:hover {
-  background-color: var(--link-color);
-}
-
 /**/
 
 /*About page*/
 .about-heading-wrapper {
-  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+  background-image: url(/img/about-page-wrap.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   max-width: 100%;
   height: 400px;
-  max-height: auto;
   margin-bottom: 3em;
 }
 
-.about-wrap-heading {
-  font-size: 4vw;
+.about-container {
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 90%);
+  padding: 15px;
   font-family: var(--primary-font);
-  color: #000;
-  text-align: center;
-  transform: translate(0%, 400%);
+  background-color: white;
+  font-size: 2vw;
+}
+
+.about-wrap-heading {
+  text-transform: uppercase;
 }
 
 .about-main {
   display: flex;
   flex-flow: column nowrap;
   margin: 0% 20% 0% 20%;
+  overflow: visible;
 }
 
 .column-about-content {
@@ -489,30 +325,39 @@ a.category>p:hover {
 
 form.get-in-touch {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  margin: 0% 20% 0% 20%;
 }
 
 .fill-form {
   font-family: var(--secondary-font);
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
 
-input {
-  width: 15rem;
+label {
+  font-family: var(--secondary-font);
+}
+
+form input {
+  width: 30rem;
+  height: 2rem;
+  margin-bottom: 2rem;
   border-top: none;
   border-left: none;
   border-right: none;
 }
 
 .submit-button {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   transition: all 0.2s ease;
   cursor: pointer;
   text-transform: uppercase;
   background-color: #0dc2e2;
-  width: 5.5vw;
-  height: 2vw;
+  width: 9.5vw;
+  height: 2.5vw;
   border-radius: 5px;
   border: none;
   color: white;
@@ -521,6 +366,8 @@ input {
 .submit-button:hover {
   background-color: var(--link-color);
 }
+
+/**/
 
 /*Buttons*/
 
@@ -571,12 +418,12 @@ a.category:hover {
   text-decoration: none;
 }
 
-a.category>p {
+a.category > p {
   color: white;
   font-size: 0.9rem;
 }
 
-a.category>p:hover {
+a.category > p:hover {
   text-decoration: none;
 }
 
@@ -588,7 +435,6 @@ a.category>p:hover {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     object-fit: cover;
-
   }
 
   .article-container {
@@ -640,12 +486,12 @@ a.category>p:hover {
     padding-right: 1rem;
   }
 
-  .img-container>img {
+  .img-container > img {
     width: auto;
     height: 100%;
   }
 
-  .text-column>h2 {
+  .text-column > h2 {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: var(--margin-bottom);
@@ -680,17 +526,16 @@ a.category>p:hover {
     text-decoration: none;
   }
 
-  a.category>p {
+  a.category > p {
     color: white;
     font-size: 0.9rem;
   }
 
-  a.category>p:hover {
+  a.category > p:hover {
     text-decoration: none;
   }
 
   @media only screen and (max-width: 768px) {
-
     .image {
       height: 60vw;
     }
@@ -715,12 +560,12 @@ a.category>p:hover {
       padding-right: 1rem;
     }
 
-    .img-container>img {
+    .img-container > img {
       width: auto;
       height: 100%;
     }
 
-    .text-column>h2 {
+    .text-column > h2 {
       font-size: 1rem;
       font-weight: 600;
       margin-bottom: var(--margin-bottom);
@@ -742,10 +587,6 @@ a.category>p:hover {
   }
 
   /*newsletter page*/
-  .newsletter-page {
-    /* background-image: url(img/the-round-tower-2762438_1920.jpg); */
-    background-repeat: no-repeat;
-  }
 
   .newsletter-main {
     display: flex;
@@ -756,46 +597,22 @@ a.category>p:hover {
 
   .news-heading {
     font-family: var(--primary-font);
-    font-size: 2rem;
+    font-size: 1.2rem;
+    padding-right: 1em;
   }
 
-  .news-form {
-    font-family: var(--secondary-font);
-  }
-
-  .register-form .e-mail {
-    border: none;
-    width: 20vw;
-    height: 3vw;
-    opacity: 30%;
-  }
-
-  .register-form .sub-button {
-    text-align: center;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: #0dc2e2;
-    width: 6vw;
-    height: 2vw;
-    border-radius: 5px;
-    border: none;
-    color: white;
-  }
-
-  .sub-button:hover {
-    background-color: var(--link-color);
+  #e-mail {
+    height: 5vw;
+    width: 55vw;
   }
 
   /**/
 
   /*About page*/
   .about-heading-wrapper {
-    background-image: url(img/rosenborg-castle-4696852_1920.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     max-width: 100%;
-    height: 400px;
+    height: 300px;
     max-height: auto;
     margin-bottom: 3em;
   }
@@ -805,7 +622,22 @@ a.category>p:hover {
     font-family: var(--primary-font);
     color: #000;
     text-align: center;
-    transform: translate(0%, 400%);
+  }
+
+  .about-container {
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 20%);
+    padding: 14px;
+    font-family: var(--primary-font);
+    background-color: white;
+    font-size: 2.8vw;
+  }
+
+  .about-wrap-heading {
+    text-transform: uppercase;
   }
 
   .about-main {
@@ -826,18 +658,12 @@ a.category>p:hover {
     margin-bottom: 2em;
   }
 
-  .about-heading {
-    font-family: var(--primary-font);
-    font-weight: 600;
-    font-size: 2em;
-  }
-
   .about-p {
     font-family: var(--secondary-font);
     font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 3em;
-    line-height: 1.5;
+    line-height: 1.7;
   }
 
   .about-subhead {
@@ -845,21 +671,26 @@ a.category>p:hover {
     font-weight: 600;
     font-size: 1.5em;
     text-align: center;
+    padding-bottom: 1em;
   }
 
   form.get-in-touch {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .fill-form {
     font-family: var(--secondary-font);
-    font-size: 1.2vw;
+    font-size: 2vw;
   }
 
-  input {
-    width: 15rem;
+  form input {
+    width: 17rem;
+    height: 2rem;
+    margin-bottom: 2rem;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -871,8 +702,8 @@ a.category>p:hover {
     cursor: pointer;
     text-transform: uppercase;
     background-color: #0dc2e2;
-    width: 5.5vw;
-    height: 2vw;
+    width: 10em;
+    height: 3em;
     border-radius: 5px;
     border: none;
     color: white;
