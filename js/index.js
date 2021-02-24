@@ -26,7 +26,7 @@ function showArea() {
 
 //fetching data
 const url = "https://kea2021-8b3d.restdb.io/rest/cph-explorers?max=51";
-const mediaurl = 'https://kea2021-8b3d.restdb.io/rest/cph-explorers?max=51';
+//const mediaurl = 'https://kea2021-8b3d.restdb.io/rest/cph-explorers?max=51';
 //key
 const options = {
     headers: {
