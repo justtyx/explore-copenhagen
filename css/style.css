@@ -52,6 +52,10 @@ a {
   max-width: 700px;
 }
 
+.article-headline {
+  text-transform: uppercase;
+}
+
 .short-description {
   font-family: var(--secondary-font);
   max-width: 700px;
@@ -95,20 +99,20 @@ a {
 .text-column>h2 {
   font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: var(--margin-bottom);
+  margin-bottom: 0.2rem;
   font-family: var(--primary-font);
 }
 
 .description {
   line-height: 140%;
-  margin-bottom: var(--margin-bottom);
+  margin-bottom: 0.2rem;
   font-family: var(--secondary-font);
 }
 
 .address {
   font-size: 0.9rem;
   color: var(--color-3);
-  margin-bottom: var(--margin-bottom);
+  margin-bottom: 0.2rem;
   font-family: var(--secondary-font);
 }
 
@@ -224,8 +228,8 @@ form {
   grid-template-columns: 150px 1fr;
   padding: 1em;
   max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   padding: 2em;
 }
 
@@ -241,6 +245,7 @@ input,
 
 form input {
   width: 25rem;
+  height: 2rem;
   margin-bottom: 1rem;
   border-top: none;
   border-left: none;
@@ -380,7 +385,7 @@ a.category>p:hover {
 
 /*newsletter page*/
 .newsletter-page {
-  background-image: url(img/the-round-tower-2762438_1920.jpg);
+  /* background-image: url(img/the-round-tower-2762438_1920.jpg); */
   background-repeat: no-repeat;
 }
 
@@ -740,7 +745,7 @@ a.category>p:hover {
 
   /*newsletter page*/
   .newsletter-page {
-    background-image: url(img/the-round-tower-2762438_1920.jpg);
+    /* background-image: url(img/the-round-tower-2762438_1920.jpg); */
     background-repeat: no-repeat;
   }
 

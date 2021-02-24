@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Article page</title>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/nav.css" />
 </head>
@@ -35,7 +36,7 @@
     </div>
     <div class="header-img"></div>
     <div class="article-container">
-      <h1>ARTICLE- COPENHAGEN</h1>
+      <h1 class="article-headline">ARTICLE- COPENHAGEN</h1>
     </div>
   </header>
 
@@ -52,7 +53,8 @@
     <section class="image">
       <img src="img/6e080d35784777.5703c948cde16.png" alt="map" />
     </section>
-    <section class="card">
+    <section class="cards-place"></section>
+    <!-- <section class="card">
       <div class="img-container">
         <img src="img/ava-coploff-tcE9zSc2SU8-unsplash.jpg" alt="Copenhagen" />
       </div>
@@ -105,10 +107,30 @@
           <p>Category</p>
         </a>
       </div>
-    </section>
+    </section> -->
   </article>
+  <template>
+    <section class="card">
+      <div class="img-container">
+        <img src="img/ava-coploff-tcE9zSc2SU8-unsplash.jpg" alt="Copenhagen" />
+      </div>
+      <div class="text-column">
+        <h2>Location's name</h2>
+        <p class="address">Address</p>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <a href="#" class="typography-sample category">
+          <p>Category</p>
+        </a>
+      </div>
+    </section>
+  </template>
   <script src="js/nav.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/article.js"></script>
 </body>
 
 </html>

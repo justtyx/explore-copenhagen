@@ -79,5 +79,3 @@ fetch(url, options)
            // parent.appendChild(clone);
         });
     }
-
-//map descriptions
