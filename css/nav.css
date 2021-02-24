@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1.5rem;
 }
 
 .logo {
@@ -42,7 +43,8 @@ body {
     font-size: 16px;
 }
 
-.navbutton a, .explore {
+.navbutton a,
+.explore {
     text-decoration: none;
     color: black;
     font-weight: 500;

@@ -8,7 +8,7 @@
 }
 
 .article-card {
-    margin: 1rem 0;
+    margin: 1rem 0 0;
 }
 
 .lnd-margin {
@@ -21,6 +21,17 @@
     margin: 0.3rem 0;
 }
 
+.explore-by {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-by>p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
 .cat-img-cont {
     background-color: var(--bg-color);
     width: 100%;
@@ -30,14 +41,13 @@
 }
 
 .cat-img-cont:hover {
-    box-shadow: 0px 0px 9px var(--color-3);
+    box-shadow: 0px 0px 15px var(--color-3);
 }
 
 .cat-img-cont>img {
     width: 100%;
     height: auto;
     overflow: hidden;
-    min-height: 227px;
 }
 
 .card-title {
@@ -48,8 +58,8 @@
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 0.3fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(11rem, 100%), 0.7fr));
+    gap: 2rem;
     justify-content: center;
 }
 

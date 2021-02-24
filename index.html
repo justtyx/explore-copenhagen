@@ -38,9 +38,13 @@
     </header>
     <main>
         <div class="lnd-margin">
-            <p>Explore by</p>
-            <button class="landing-btn selected" id="area-btn">Area</button>
-            <button class="landing-btn unselected" id="category-btn">Category</button>
+            <div class="explore-by">
+                <p>Explore by</p>
+                <div class="explore-btns">
+                    <button class="landing-btn selected" id="area-btn">Area</button>
+                    <button class="landing-btn unselected" id="category-btn">Category</button>
+                </div>
+            </div>
             <section class="cards-grid hidden slider" id="lnd-cat">
                 <a href="article.html?q={&quot;Category&quot;: &quot;Must-see places&quot;}" class="article-card">
                     <article class="ldn-card-cont">
@@ -319,18 +323,14 @@
                 </div>
             </section>
         </div>
-        <section class="lnd-discover">
-            <div class="lnd-discover-content">
-                <h1>Discover weekly</h1>
-                <div class="disc-col-2">
-                    <p>Exploring Copenhagen has never been so fun!</p>
-                    <button class="forms-button" onclick="window.location.href='article.html';">Click to
-                        discover</button>
-                </div>
-            </div>
-        </section>
     </main>
     <footer>
+        <p>&copy; Agata Figura, Caroline Wulff, Justina Jemeljanovaite, Maria Lavinia Otelea, Copenhagen School of
+            Design and Technology – KEA, 2021</p>
+        <div class="soMe">
+            <a href="#"><img src="img/ig.svg" alt="instagram.com/explorecph"></a>
+            <a href="#"><img src="img/fb.svg" alt="facebook.com/explorecph"></a>
+            <a href="#"><img src="img/pinterest.svg" alt="pinterest.com/explorecph"></a></div>
     </footer>
     <script src="js/nav.js"></script>
     <script src="js/map.js"></script>
