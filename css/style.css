@@ -107,7 +107,7 @@ a {
 
 /*newsletter page*/
 .newsletter-page {
-  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/the-round-tower-2762438_1920.jpg);
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/newsletter-image.jpg);
   background-repeat: no-repeat;
 }
 
@@ -155,7 +155,7 @@ a {
 
 /*About page*/
 .about-heading-wrapper {
-  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/rosenborg-castle-4696852_1920.jpg);
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/about-page-wrap.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
