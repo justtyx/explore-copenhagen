@@ -160,17 +160,16 @@ a {
   background-position: center;
   max-width: 100%;
   height: 400px;
-  max-height: auto;
   margin-bottom: 3em;
 }
 
-.about-wrap-heading {
+/* .about-wrap-heading {
   font-size: 4vw;
   font-family: var(--primary-font);
   color: #000;
   text-align: center;
   transform: translate(0%, 400%);
-}
+} */
 
 .about-main {
   display: flex;
@@ -211,24 +210,12 @@ a {
   text-align: center;
 }
 
-form {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  padding: 1em;
-  max-width: 700px;
-  /* margin-left: auto;
-  margin-right: auto; */
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2em;
-}
-
-label {
-  grid-column: 1/ 2;
-  font-family: var(--secondary-font);
-}
-
-input,
-.submit-button {
-  grid-column: 2 / 3;
 }
 
 form input {
@@ -341,7 +328,7 @@ a.category > p:hover {
 
 /*newsletter page*/
 .newsletter-page {
-  background-image: url(/img/newsletter-image.jpg);
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/newsletter-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -371,9 +358,9 @@ a.category > p:hover {
 
 /*About page*/
 .about-heading-wrapper {
-  background-image: url(/img/about-page-wrap.jpg);
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/about-page-wrap.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   max-width: 100%;
   height: 400px;
   margin-bottom: 3em;
@@ -391,15 +378,10 @@ a.category > p:hover {
   font-size: 2vw;
 }
 
-.about-wrap-heading {
-  text-transform: uppercase;
-}
-
 .about-main {
   display: flex;
   flex-flow: column nowrap;
   margin: 0% 20% 0% 20%;
-  overflow: visible;
 }
 
 .column-about-content {
@@ -435,11 +417,12 @@ a.category > p:hover {
   text-align: center;
 }
 
-form.get-in-touch {
+.get-in-touch {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0% 20% 0% 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
 }
 
 .fill-form {
@@ -537,147 +520,6 @@ a.category > p {
 
 a.category > p:hover {
   text-decoration: none;
-}
-
-/*newsletter page*/
-.newsletter-page {
-  /* background-image: url(img/the-round-tower-2762438_1920.jpg); */
-  background-repeat: no-repeat;
-}
-
-.newsletter-main {
-  display: flex;
-  flex-direction: column;
-  margin-top: 15em;
-  padding-left: 2em;
-}
-
-.news-heading {
-  font-family: var(--primary-font);
-  font-size: 2rem;
-}
-
-.news-form {
-  font-family: var(--secondary-font);
-}
-
-.register-form .e-mail {
-  border: none;
-  width: 20vw;
-  height: 3vw;
-  opacity: 30%;
-}
-
-.register-form .sub-button {
-  text-align: center;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: #0dc2e2;
-  width: 6vw;
-  height: 2vw;
-  border-radius: 5px;
-  border: none;
-  color: white;
-}
-
-.sub-button:hover {
-  background-color: var(--link-color);
-}
-
-/**/
-
-/*About page*/
-.about-heading-wrapper {
-  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 100%;
-  height: 400px;
-  max-height: auto;
-  margin-bottom: 3em;
-}
-
-.about-wrap-heading {
-  font-size: 4vw;
-  font-family: var(--primary-font);
-  color: #000;
-  text-align: center;
-  transform: translate(0%, 400%);
-}
-
-.about-main {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 0% 20% 0% 20%;
-}
-
-.column-about-content {
-  min-width: 280px;
-  text-align: left;
-}
-
-.about-page-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
-.about-heading {
-  font-family: var(--primary-font);
-  font-weight: 600;
-  font-size: 2em;
-}
-
-.about-p {
-  font-family: var(--secondary-font);
-  font-size: 0.9rem;
-  font-weight: 400;
-  margin-bottom: 3em;
-  line-height: 1.5;
-}
-
-.about-subhead {
-  font-family: var(--secondary-font);
-  font-weight: 600;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-form.get-in-touch {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.fill-form {
-  font-family: var(--secondary-font);
-  font-size: 1.2vw;
-}
-
-input {
-  width: 15rem;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
-.submit-button {
-  text-align: center;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: #0dc2e2;
-  width: 5.5vw;
-  height: 2vw;
-  border-radius: 5px;
-  border: none;
-  color: white;
-}
-
-.submit-button:hover {
-  background-color: var(--link-color);
 }
 
 /*Forms button*/
