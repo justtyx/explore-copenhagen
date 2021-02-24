@@ -228,8 +228,6 @@ form {
   grid-template-columns: 150px 1fr;
   padding: 1em;
   max-width: 700px;
-  /* margin-left: auto;
-  margin-right: auto; */
   padding: 2em;
 }
 
@@ -384,7 +382,6 @@ a.category>p:hover {
 
 /*newsletter page*/
 .newsletter-page {
-  /* background-image: url(img/the-round-tower-2762438_1920.jpg); */
   background-repeat: no-repeat;
 }
 
@@ -913,9 +910,9 @@ button {
 /*Landing page area-category*/
 
 .landing-btn {
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 5px;
-  margin: 0.5rem 0.3rem 1rem 0;
+  margin: 0.5rem 0.3rem 1.3rem 0;
 }
 
 .landing-btn.selected {
@@ -960,4 +957,55 @@ button:focus,
 button:active,
 button:focus-within {
   outline: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  font-size: 0.8rem;
+  font-family: var(--secondary-font);
+  margin: 4rem 1.5rem 0;
+}
+
+footer>p {
+  width: 1fr;
+  max-width: 500px;
+  justify-self: start;
+  margin: 0.3rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: var(--bg-color);
+}
+
+.soMe>a>img {
+  width: 1.5vw;
+  min-width: 25px;
+}
+
+.soMe>a {
+  margin: 0.3rem 0.1rem;
+}
+
+.soMe>a:first-child {
+  margin-left: 0;
+}
+
+.soMe>a:hover {
+  filter: invert(40%) sepia(60%) saturate(3586%) hue-rotate(160deg) brightness(110%) contrast(100%);
+}
+
+.soMe {
+  justify-self: end;
+  display: flex;
+  margin: 1rem;
+  margin-left: 0;
+  flex-wrap: nowrap;
 }
