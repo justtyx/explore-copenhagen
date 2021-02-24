@@ -1,0 +1,61 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-width: 11px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 9px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="209.5" y="78.5" width="105.5" height="343"/>
+    <line class="cls-2" x1="209.5" y1="78.5" x2="187.5" y2="101.5"/>
+    <line class="cls-3" x1="187.5" y1="101.5" x2="185" y2="410.5"/>
+    <line class="cls-2" x1="185" y1="410" x2="209" y2="421"/>
+    <g>
+      <rect class="cls-4" x="237.5" y="96.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="96.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="125.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="125.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="154.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="154.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="183.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="183.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="212.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="212.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="241.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="241.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="270.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="270.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="299.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="299.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="328.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="328.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="357.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="357.5" width="16" height="16"/>
+      <rect class="cls-4" x="237.5" y="386.5" width="16" height="16"/>
+      <rect class="cls-4" x="271.5" y="386.5" width="16" height="16"/>
+    </g>
+  </g>
+</svg>

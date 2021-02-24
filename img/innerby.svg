@@ -1,0 +1,70 @@
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-width: 11px;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 9px;
+      }
+
+      .cls-3 {
+        stroke-width: 7px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 3px;
+      }
+
+      .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-1" points="403.35 397.7 100.81 397.7 99.98 285.08 402.52 285.08 403.35 397.7"/>
+    <polygon class="cls-2" points="416.65 284.67 83.35 284.67 134.05 248.93 373.43 249.76 416.65 284.67"/>
+    <rect class="cls-3" x="144.03" y="179.94" width="28.26" height="68.99"/>
+    <polygon class="cls-4" points="158.16 122.59 142.37 177.45 173.95 177.45 158.16 122.59"/>
+    <rect class="cls-3" x="356.8" y="222.33" width="10.81" height="26.6"/>
+    <polygon class="cls-4" points="362.14 193.96 354.93 219 369.35 219 362.14 193.96"/>
+    <rect class="cls-5" x="188.08" y="234.8" width="5.82" height="11.64"/>
+    <rect class="cls-5" x="211.35" y="234.8" width="5.82" height="11.64"/>
+    <rect class="cls-5" x="234.62" y="234.8" width="5.82" height="11.64"/>
+    <rect class="cls-5" x="257.9" y="234.8" width="5.82" height="11.64"/>
+    <rect class="cls-5" x="281.17" y="234.8" width="5.82" height="11.64"/>
+    <rect class="cls-5" x="304.44" y="234.8" width="5.82" height="11.64"/>
+    <rect class="cls-5" x="327.71" y="234.8" width="5.82" height="11.64"/>
+    <circle class="cls-6" cx="158.16" cy="204.04" r="9.97"/>
+    <line class="cls-6" x1="158.16" y1="204.04" x2="158.16" y2="195.73"/>
+    <line class="cls-6" x1="158.16" y1="204.04" x2="168.13" y2="204.04"/>
+    <line class="cls-6" x1="158.51" y1="123.42" x2="158.51" y2="102.64"/>
+    <circle class="cls-5" cx="158.51" cy="103.74" r="1.45"/>
+    <line class="cls-6" x1="362.21" y1="198.93" x2="362.21" y2="178.15"/>
+    <circle class="cls-5" cx="362.21" cy="179.26" r="1.45"/>
+    <line class="cls-7" x1="247.51" y1="195.32" x2="247.51" y2="246.85"/>
+    <path class="cls-8" d="M247.59,201a9.18,9.18,0,0,1,6.8,1.18,40.36,40.36,0,0,1,5.14,4.47c3.11,2.76,7.88,5.09,11.8,2.47,1.6-1.07.1-3.67-1.51-2.59-3.88,2.59-8-1.88-10.61-4.29a16.85,16.85,0,0,0-5.35-3.65,12.19,12.19,0,0,0-7.07-.48c-1.88.41-1.09,3.3.8,2.89Z"/>
+  </g>
+</svg>

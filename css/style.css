@@ -62,39 +62,28 @@ a {
   margin: auto;
 }
 
-.image {
-  margin: 2rem auto 1rem;
-  display: flex;
-
-  justify-content: center;
-  height: 30vw;
-}
-
 .card {
   display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
   width: 90vw;
-  height: 15vw;
   box-shadow: 0.5px 0.5px 7px var(--color-3);
   border-radius: 2px;
   padding: 1rem;
-  overflow: hidden;
   min-width: 350px;
   margin-top: 3%;
-  margin-left: 80px;
+  margin-left: 50px;
   margin-right: 80px;
 }
 
-.img-container {
-  width: max(20vw, 300px);
-  height: auto;
-  padding-right: 1rem;
+.card > img {
+  width: 25%;
 }
-
-.img-container > img {
-  width: auto;
-  height: 100%;
+.text-column {
+  width: 70%;
+  margin-left: 20px;
 }
-
 .text-column > h2 {
   font-size: 1.3rem;
   font-weight: 600;
@@ -111,11 +100,163 @@ a {
 .address {
   font-size: 0.9rem;
   color: var(--color-3);
-  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-family: var(--secondary-font);
 }
 
+/*newsletter page*/
+.newsletter-page {
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/the-round-tower-2762438_1920.jpg);
+  background-repeat: no-repeat;
+}
+
+.newsletter-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15em;
+  padding-left: 2em;
+}
+
+.news-heading {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+}
+
+.news-form {
+  font-family: var(--secondary-font);
+}
+
+.register-form .e-mail {
+  border: none;
+  width: 20vw;
+  height: 3vw;
+  opacity: 30%;
+}
+
+.register-form .sub-button {
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #0dc2e2;
+  width: 6vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.sub-button:hover {
+  background-color: var(--link-color);
+}
+
 /**/
+
+/*About page*/
+.about-heading-wrapper {
+  background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/rosenborg-castle-4696852_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 400px;
+  max-height: auto;
+  margin-bottom: 3em;
+}
+
+.about-wrap-heading {
+  font-size: 4vw;
+  font-family: var(--primary-font);
+  color: #000;
+  text-align: center;
+  transform: translate(0%, 400%);
+}
+
+.about-main {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0% 20% 0% 20%;
+}
+
+.column-about-content {
+  min-width: 280px;
+  text-align: left;
+}
+
+.about-page-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.about-heading {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.about-p {
+  font-family: var(--secondary-font);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 3em;
+  line-height: 1.5;
+}
+
+.about-subhead {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  padding: 1em;
+  max-width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding: 2em;
+}
+
+label {
+  grid-column: 1/ 2;
+  font-family: var(--secondary-font);
+}
+
+input,
+.submit-button {
+  grid-column: 2 / 3;
+}
+
+form input {
+  width: 25rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.submit-button {
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #0dc2e2;
+  width: 9.5vw;
+  height: 2.5vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  transform: translate(70%, 30%);
+}
+
+.submit-button:hover {
+  background-color: var(--link-color);
+}
 
 a.category {
   margin-top: 0.6rem;
@@ -151,59 +292,32 @@ a.category > p:hover {
   }
 
   .article-container {
-    z-index: 100;
-    position: absolute;
     color: black;
     font-size: 24px;
     font-weight: bold;
-    transform: translate(-50%, -50%);
-    top: 39%;
-    left: 50%;
     background-color: white;
     font-family: var(--primary-font);
+    text-align: center;
+    transform: translateY(-50px);
+    display: block;
+    margin: auto;
+    max-width: 700px;
   }
 
   .short-description {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-family: var(--secondary-font);
+    max-width: 700px;
+    display: block;
+    margin-left: 40px;
   }
-
-  .image {
-    margin-top: 20%;
-    margin-left: 35%;
-    display: flex;
-
-    width: 60vw;
-    height: 30vw;
-    padding: 1rem;
-  }
-
   .card {
-    display: flex;
-    width: 90vw;
-    height: 15vw;
-    box-shadow: 0.5px 0.5px 7px var(--color-3);
-    border-radius: 2px;
-    padding: 1rem;
-    overflow: hidden;
-    min-width: 350px;
-    margin-top: 3%;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 5%;
+    margin-left: 30px;
   }
 
-  .img-container {
-    width: max(20vw, 300px);
+  .card > img {
     height: auto;
-    padding-right: 1rem;
-  }
-
-  .img-container > img {
-    width: auto;
-    height: 100%;
+    width: 35%;
   }
 
   .text-column > h2 {
@@ -214,8 +328,6 @@ a.category > p:hover {
   }
 
   .description {
-    line-height: 140%;
-    margin-bottom: var(--margin-bottom);
     font-family: var(--secondary-font);
   }
 
@@ -427,304 +539,158 @@ a.category > p:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-  .header-img {
-    width: 100%;
-    height: 200px;
-    background-image: url(https://raw.githubusercontent.com/justtyx/explore-copenhagen/main/img/800px_COLOURBOX11893496.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    object-fit: cover;
-  }
+/*newsletter page*/
+.newsletter-page {
+  /* background-image: url(img/the-round-tower-2762438_1920.jpg); */
+  background-repeat: no-repeat;
+}
 
-  .article-container {
-    z-index: 100;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: white;
-    font-family: var(--primary-font);
-    text-align: center;
-    transform: translateY(-50px);
-    display: block;
-    margin: auto;
-    max-width: 700px;
-  }
+.newsletter-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15em;
+  padding-left: 2em;
+}
 
-  .short-description {
-    font-family: var(--secondary-font);
-    max-width: 700px;
-    display: block;
-    margin: auto;
-  }
+.news-heading {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+}
 
-  .image {
-    margin: 2rem auto 1rem;
-    display: flex;
+.news-form {
+  font-family: var(--secondary-font);
+}
 
-    justify-content: center;
-    height: 30vw;
-  }
+.register-form .e-mail {
+  border: none;
+  width: 20vw;
+  height: 3vw;
+  opacity: 30%;
+}
 
-  .card {
-    display: flex;
-    width: 80vw;
-    height: 40vw;
-    box-shadow: 0.5px 0.5px 7px var(--color-3);
-    border-radius: 2px;
-    padding: 1rem;
-    overflow: hidden;
-    min-width: 300px;
-    margin-top: 5%;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
+.register-form .sub-button {
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #0dc2e2;
+  width: 6vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
 
-  .img-container {
-    width: max(50vw, 200px);
-    height: auto;
-    padding-right: 1rem;
-  }
+.sub-button:hover {
+  background-color: var(--link-color);
+}
 
-  .img-container > img {
-    width: auto;
-    height: 100%;
-  }
+/**/
 
-  .text-column > h2 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--primary-font);
-  }
+/*About page*/
+.about-heading-wrapper {
+  background-image: url(img/rosenborg-castle-4696852_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 400px;
+  max-height: auto;
+  margin-bottom: 3em;
+}
 
-  .description {
-    line-height: 140%;
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--secondary-font);
-  }
+.about-wrap-heading {
+  font-size: 4vw;
+  font-family: var(--primary-font);
+  color: #000;
+  text-align: center;
+  transform: translate(0%, 400%);
+}
 
-  .address {
-    font-size: 0.9rem;
-    color: var(--color-3);
-    margin-bottom: var(--margin-bottom);
-    font-family: var(--secondary-font);
-  }
+.about-main {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0% 20% 0% 20%;
+}
 
-  a.category {
-    margin-top: 0.6rem;
-    background-color: var(--bg-color);
-    display: inline-block;
-    padding: 0.3rem 0.6rem;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: var(--secondary-font);
-  }
+.column-about-content {
+  min-width: 280px;
+  text-align: left;
+}
 
-  a.category:hover {
-    background-color: var(--link-color);
-    text-decoration: none;
-  }
+.about-page-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
 
-  a.category > p {
-    color: white;
-    font-size: 0.9rem;
-  }
+.about-heading {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 2em;
+}
 
-  a.category > p:hover {
-    text-decoration: none;
-  }
+.about-p {
+  font-family: var(--secondary-font);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 3em;
+  line-height: 1.5;
+}
 
-  @media only screen and (max-width: 768px) {
-    .image {
-      height: 60vw;
-    }
+.about-subhead {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
 
-    .card {
-      display: flex;
-      width: 80vw;
-      height: 40vw;
-      box-shadow: 0.5px 0.5px 7px var(--color-3);
-      border-radius: 2px;
-      padding: 1rem;
-      overflow: hidden;
-      min-width: 300px;
-      margin-top: 5%;
-      margin-left: 40px;
-      margin-right: 40px;
-    }
+form.get-in-touch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-    .img-container {
-      width: max(50vw, 200px);
-      height: auto;
-      padding-right: 1rem;
-    }
+.fill-form {
+  font-family: var(--secondary-font);
+  font-size: 1.2vw;
+}
 
-    .img-container > img {
-      width: auto;
-      height: 100%;
-    }
+input {
+  width: 15rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
 
-    .text-column > h2 {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: var(--margin-bottom);
-      font-family: var(--primary-font);
-    }
+.submit-button {
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #0dc2e2;
+  width: 5.5vw;
+  height: 2vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
 
-    .description {
-      line-height: 140%;
-      margin-bottom: var(--margin-bottom);
-      font-family: var(--secondary-font);
-    }
+.submit-button:hover {
+  background-color: var(--link-color);
+}
 
-    .address {
-      font-size: 0.9rem;
-      color: var(--color-3);
-      margin-bottom: var(--margin-bottom);
-      font-family: var(--secondary-font);
-    }
-  }
+/*Forms button*/
 
-  /*newsletter page*/
-
-  .newsletter-main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15em;
-    padding-left: 2em;
-  }
-
-  .news-heading {
-    font-family: var(--primary-font);
-    font-size: 1.2rem;
-    padding-right: 1em;
-  }
-
-  #e-mail {
-    height: 5vw;
-    width: 55vw;
-  }
-
-  /**/
-
-  /*About page*/
-  .about-heading-wrapper {
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 300px;
-    max-height: auto;
-    margin-bottom: 3em;
-  }
-
-  .about-wrap-heading {
-    font-size: 4vw;
-    font-family: var(--primary-font);
-    color: #000;
-    text-align: center;
-  }
-
-  .about-container {
-    z-index: 100;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 20%);
-    padding: 14px;
-    font-family: var(--primary-font);
-    background-color: white;
-    font-size: 2.8vw;
-  }
-
-  .about-wrap-heading {
-    text-transform: uppercase;
-  }
-
-  .about-main {
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 0% 20% 0% 20%;
-  }
-
-  .column-about-content {
-    min-width: 280px;
-    text-align: left;
-  }
-
-  .about-page-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 1em;
-    margin-bottom: 2em;
-  }
-
-  .about-p {
-    font-family: var(--secondary-font);
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin-bottom: 3em;
-    line-height: 1.7;
-  }
-
-  .about-subhead {
-    font-family: var(--secondary-font);
-    font-weight: 600;
-    font-size: 1.5em;
-    text-align: center;
-    padding-bottom: 1em;
-  }
-
-  form.get-in-touch {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .fill-form {
-    font-family: var(--secondary-font);
-    font-size: 2vw;
-  }
-
-  form input {
-    width: 17rem;
-    height: 2rem;
-    margin-bottom: 2rem;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-  }
-
-  .submit-button {
-    text-align: center;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: #0dc2e2;
-    width: 10em;
-    height: 3em;
-    border-radius: 5px;
-    border: none;
-    color: white;
-  }
-
-  .submit-button:hover {
-    background-color: var(--link-color);
-  }
-
-  /*Forms button*/
-
-  .forms-button {
-    background: var(--bg-color);
-    color: white;
-    padding: 0.7rem 2rem;
-    border-radius: 7px;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    margin: 0 1rem 1rem 0;
-  }
+.forms-button {
+  background: var(--bg-color);
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin: 0 1rem 1rem 0;
 }
 
 /*Buttons*/
