@@ -130,13 +130,15 @@ body {
     }
 
     .menu {
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         margin: 0;
+        padding: 5rem 0 0;
         height: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
         width: 40vw;
         transform: translateX(100%);
@@ -144,6 +146,10 @@ body {
         background-color: lightgray;
         opacity: 100%;
         z-index: 1;
+    }
+
+    .menu>a {
+        margin: 1rem 0 3rem;
     }
 
     .menu button {

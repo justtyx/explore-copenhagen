@@ -29,6 +29,12 @@ a {
   transition: all 0.2s;
 }
 
+#header-abt,
+#area-article,
+#category-article {
+  font-family: var(--primary-font);
+}
+
 /*article page*/
 .header-img {
   width: 100%;
@@ -52,10 +58,6 @@ a {
   max-width: 700px;
 }
 
-.article-headline {
-  text-transform: uppercase;
-}
-
 .short-description {
   font-family: var(--secondary-font);
   max-width: 700px;
@@ -71,19 +73,24 @@ a {
   box-shadow: 0.5px 0.5px 7px var(--color-3);
   border-radius: 2px;
   padding: 1rem;
-  margin-top: 3%;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 3% auto;
+  align-items: center;
 }
 
-.card>img {
-  width: 25%;
+.card-img-cont {
+  width: max(40%, 14.5rem);
+  height: 90%;
+
+  overflow: hidden;
+}
+
+.card-img-cont>img {
+  width: 100%;
 }
 
 .text-column {
   width: 70%;
-  margin-left: 35px;
-  margin-top: 20px;
+  margin: 0 1.5rem;
 }
 
 .text-column>h2 {
@@ -116,13 +123,14 @@ a {
 .newsletter-main {
   display: flex;
   flex-direction: column;
-  margin-top: 15em;
+  margin-top: 6rem;
   padding-left: 2em;
 }
 
 .news-heading {
   font-family: var(--primary-font);
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .news-form {
@@ -192,7 +200,7 @@ a {
 }
 
 .about-heading {
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 2em;
 }
@@ -294,9 +302,9 @@ a.category>p:hover {
 
   .short-description {
     font-family: var(--secondary-font);
-    max-width: 700px;
+    max-width: 350px;
     display: block;
-    margin-left: 40px;
+    margin: 0 auto 3rem
   }
 
   .card {
@@ -307,8 +315,7 @@ a.category>p:hover {
     width: 70vw;
     box-shadow: 0.5px 0.5px 7px var(--color-3);
     border-radius: 2px;
-    margin-top: 6%;
-    margin-left: 80px;
+    margin: 6% auto 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -356,7 +363,7 @@ a.category>p:hover {
 .newsletter-main {
   display: flex;
   flex-direction: column;
-  margin-top: 12em;
+  margin-top: 8rem;
   padding-left: 2em;
 }
 
@@ -418,7 +425,7 @@ a.category>p:hover {
 }
 
 .about-heading {
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 2em;
 }
@@ -631,8 +638,20 @@ footer {
   margin: 4rem 1.5rem 0;
 }
 
+.newsletter-foo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  margin: 4rem 0 0;
+}
+
+.newsletter-foo>p {
+  margin: 1rem;
+}
+
 footer>p {
-  width: 1fr;
   max-width: 500px;
   justify-self: start;
   margin: 0.3rem 0;
@@ -654,6 +673,7 @@ footer a:hover {
 
 .soMe>a {
   margin: 0.3rem 0.1rem;
+  margin-left: 1rem;
 }
 
 .soMe>a:first-child {

@@ -43,7 +43,7 @@ function openFrederiksbergModal() {
   document.querySelector('.map-area-name').textContent = 'Frederiksberg';
   document.querySelector('.modal-body>p').textContent = 'Despite being its own separate municipality, Frederiksberg is still one of the 10 official districts that make the interesting city of Copenhagen. Characterised by it’s green spaces, the ZOO and unique dining spaces, it’s a district well worth a walk through.';
   document.querySelector('.modal-footer>a').style.display = 'inline';
-  document.querySelector('.modal-footer>a').href = 'article.html?q={"Area": "Frederiksberg"}';
+  document.querySelector('.modal-footer>a').href = 'article.html?q=Frederiksberg';
 }
 
 function openBispebjergModal() {
@@ -51,7 +51,7 @@ function openBispebjergModal() {
   document.querySelector('.map-area-name').textContent = 'Bispebjerg';
   document.querySelector('.modal-body>p').textContent = 'More commonly referred to as Nordvest, Bispebjerg offers a variety of cultural sights both indoors and outdoors, to experience any time of year.';
   document.querySelector('.modal-footer>a').style.display = 'inline';
-  document.querySelector('.modal-footer>a').href = 'article.html?q={"Area": "Bispebjerg"}';
+  document.querySelector('.modal-footer>a').href = 'article.html?q=Bispebjerg';
 }
 
 function openNorrebroModal() {
@@ -59,7 +59,7 @@ function openNorrebroModal() {
   document.querySelector('.map-area-name').textContent = 'Nørrebro';
   document.querySelector('.modal-body>p').textContent = "Nørrebro is a true culturally diverse place in Copenhagen. Creativity is alive and well in this ever-buzzing part of town. This is both the place to go for the best beer you've ever had and your new coffee place to hang out with your Danish friends";
   document.querySelector('.modal-footer>a').style.display = 'inline';
-  document.querySelector('.modal-footer>a').href = 'article.html?q={"Area": "Nørrebro"}';
+  document.querySelector('.modal-footer>a').href = 'article.html?q=Nørrebro';
 }
 
 function openOsterbroModal() {
@@ -67,7 +67,7 @@ function openOsterbroModal() {
   document.querySelector('.map-area-name').textContent = 'Østerbro';
   document.querySelector('.modal-body>p').textContent = 'Østerbro is a family-friendly neighbourhood that hosts one of the most beautiful tourist attractions in Copenhagen. It is also one of the greenest parts, with lots of opportunities for outdoor activities.';
   document.querySelector('.modal-footer>a').style.display = 'inline';
-  document.querySelector('.modal-footer>a').href = 'article.html?q={"Area": "Østerbro"}';
+  document.querySelector('.modal-footer>a').href = 'article.html?q=Østerbro';
 }
 
 function openVesterbroModal() {
@@ -75,7 +75,7 @@ function openVesterbroModal() {
   document.querySelector('.map-area-name').textContent = 'Vesterbro';
   document.querySelector('.modal-body>p').textContent = 'Vesterbro is one of the most vibrant parts of the city. It offers a variety of entertaining opportunities for adults and children alike.';
   document.querySelector('.modal-footer>a').style.display = 'inline';
-  document.querySelector('.modal-footer>a').href = 'article.html?q={"Area": "Vesterbro"}';
+  document.querySelector('.modal-footer>a').href = 'article.html?q=Vesterbro';
 }
 
 function openAmagerModal() {
@@ -83,7 +83,7 @@ function openAmagerModal() {
   document.querySelector('.map-area-name').textContent = 'Amager';
   document.querySelector('.modal-body>p').textContent = 'Holding the title as Denmark’s most densely populated Island, Amager is home to the ‘extension of Copenhagen’ called Ørestad, and has some of the best quality shopping that Denmark has to offer, as well as rich nature and gorgeous beaches.';
   document.querySelector('.modal-footer>a').style.display = 'inline';
-  document.querySelector('.modal-footer>a').href = 'article.html?q={"Area": "Amager"}';
+  document.querySelector('.modal-footer>a').href = 'article.html?q=Amager';
 }
 
 function openIndreModal() {
@@ -91,7 +91,7 @@ function openIndreModal() {
   document.querySelector('.map-area-name').textContent = 'Indre By';
   document.querySelector('.modal-body>p').textContent = 'Indre by is a real treasure of culture, history and entertainment. There are historic buildings, church spires and narrow streets, that are able to impress even the toughest critics out there.';
   document.querySelector('.modal-footer>a').style.display = 'inline';
-  document.querySelector('.modal-footer>a').href = 'article.html?q={"Area": "Indre By"}';
+  document.querySelector('.modal-footer>a').href = 'article.html?q=Indre By';
 }
 
 // Close
