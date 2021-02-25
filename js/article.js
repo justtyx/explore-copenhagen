@@ -9,7 +9,6 @@ const url = `https://kea2021-8b3d.restdb.io/rest/cph-explorers?q={"Area": "${url
 //Fetching image link
 const mediaurl = 'https://kea2021-8b3d.restdb.io/media/';
 
-
 //key
 const options = {
     headers: {

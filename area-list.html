@@ -5,7 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
         <link rel="stylesheet" href="css/category-list.css">
+        <link rel="stylesheet" href="css/area-list.css">
         <link rel="stylesheet" href="css/nav.css">
         <title>Categories</title>
 </head>
@@ -35,60 +37,19 @@
         </header>
 
         <main>
-
                 <h1>Areas</h1>
+                <section class="cards-grid area-list-section">
 
-                <section class="categories">
-
-                        <a href="article.html?q={&quot;Area&quot;: &quot;Amager&quot;}">
-                                <article class="category">
-                                        <img src="img/ama.svg" alt="" class="categoryimage">
-                                        <h2 class="categoryname">Amager</h2>
-                                </article>
-                        </a>
-
-                        <a href="article.html?q={&quot;Area&quot;: &quot;Bispebjerg&quot;}">
-                                <article class="category">
-                                        <img src="img/bispebjerg.svg" alt="" class="categoryimage">
-                                        <h2 class="categoryname">Bispebjerg</h2>
-                                </article>
-                        </a>
-
-                        <a href="article.html?q={&quot;Area&quot;: &quot;Østerbro&quot;}">
-                                <article class="category">
-                                        <img src="img/osterbro.svg" alt="" class="categoryimage">
-                                        <h2 class="categoryname">Østerbro</h2>
-                                </article>
-                        </a>
-
-                        <a href="article.html?q={&quot;Area&quot;: &quot;Nørrebro&quot;}">
-                                <article class="category">
-                                        <img src="img/norrebro.svg" alt="" class="categoryimage">
-                                        <h2 class="categoryname">Nørrebro</h2>
-                                </article>
-                        </a>
-
-                        <a href="article.html?q={&quot;Area&quot;: &quot;Frederiksberg&quot;}">
-                                <article class="category">
-                                        <img src="img/frederiksberg.svg" alt="" class="categoryimage">
-                                        <h2 class="categoryname">Frederiksberg</h2>
-                                </article>
-                        </a>
-
-                        <a href="article.html?q={&quot;Area&quot;: &quot;Vesterbro&quot;}">
-                                <article class="category">
-                                        <img src="img/vesterbro.svg" alt="" class="categoryimage">
-                                        <h2 class="categoryname">Vesterbro</h2>
-                                </article>
-                        </a>
-
-                        <a href="article.html?q={&quot;Area&quot;: &quot;Indre By&quot;}">
-                                <article class="category">
-                                        <img src="img/innerby.svg" alt="" class="categoryimage">
-                                        <h2 class="categoryname">Indre By</h2>
-                                </article>
-                        </a>
+                </section>
         </main>
+        <template>
+                <a href="article.html?q={&quot;Area&quot;: &quot;Amager&quot;}" class="article-link">
+                        <article class="area-cont">
+                                <img src="img/ama.svg" alt="" class="area-image">
+                                <h2 class="area-name">Amager</h2>
+                        </article>
+                </a>
+        </template>
         <footer>
                 <p>&copy; Agata Figura, Caroline Wulff, Justina Jemeljanovaite, Maria Lavinia Otelea, Copenhagen School
                         of
@@ -100,6 +61,7 @@
         </footer>
 
         <script src="js/nav.js"></script>
+        <script src="js/area.js"></script>
 
 </body>
 
