@@ -33,6 +33,7 @@ fetch(url, options)
             //  console.log(place);
 
         document.querySelector('.article-headline').textContent = place.Area;
+        document.querySelector('title').textContent = place.Area;
         document.querySelector('.short-description').textContent = place.AreaDescription;
 
         //grab the template
